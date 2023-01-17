@@ -4,6 +4,7 @@ import React from 'react';
 import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
+import Pesquisa from './components/InputSearch/index'
 
 class Home extends React.Component{ 
 
@@ -26,7 +27,7 @@ componentDidMount(){
 
 Loadpokemon = async () => {
     const{page,pokemonsPerPage} = this.state;
-    const pokemonresponse = fetch(`https://pokeapi.co/api/v2/pokemon?limit=1000&offset=0`)
+    const pokemonresponse = fetch(`https://pokeapi.co/api/v2/pokemon?limit=151&offset=0`)
         const [dados] = await Promise.all([pokemonresponse])
         const resultado = await dados.json()
             const resultadoconvertido = await resultado.results
@@ -74,13 +75,17 @@ render(){
         : pokemons;
 
 
-
-
+/* -------------------------------------------------------------------------- */
+/*                            ELEMENTOS PAG INICIAL                           */
+/* -------------------------------------------------------------------------- */
+/* ------------ SearchBar[1] PokeCard[2] FraseNTem[3] Buttom+[4] ------------ */
   return (
-    <div align="center">
-      <input onChange={this.handleChange} value={searchValue}/><br></br>
+    <div align="center" className='FundoCor'>
+      <Pesquisa mudar={this.handleChange}valor={searchValue}
+      />      
+     
       {filteredPokemon.length > 0 &&(
-           <div className="d-flex flex-row flex-wrap mb-3 justify-content-center" style={{ margin: '15px' }} >
+           <div className="d-flex flex-row flex-wrap mb-3 justify-content-center" style={{ margin: '0px 30px 0px 30px' }} >
            {filteredPokemon.map(pokemons =>(<PokeCard key={pokemons.id}id={pokemons.id} name={pokemons.name} url={pokemons.url} />))}
          </div>
       )}
@@ -88,20 +93,23 @@ render(){
       {filteredPokemon.length === 0 && (
         <>
         <h1>Não existe um pokemon com esse nome :c</h1>
-        
         </>
       )}
    
       {!searchValue && (
-          <Button className="justify-content-center" onClick={this.loadMorePokemon} variant="primary" size="lg" disabled={noMorePokemon}>
+          <Button
+          className="justify-content-center"
+          onClick={this.loadMorePokemon}
+          variant="primary"
+          size="lg"
+          disabled={noMorePokemon}
+          style={{ margin: '30px 0px 50px 0px' }}>
           Ver mais
           </Button>
       )}
-     
     </div>
   );
 }
 }
-
 
 export default Home;

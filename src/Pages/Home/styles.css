@@ -37,7 +37,13 @@
     }
   }
 
+/* --------------------------- espaço entre cards --------------------------- */
   .d-flex{
     gap:20px;
+  }
+
+/* ------------------------ cor background principal ------------------------ */
+  .FundoCor{
+    background-color: #808080;
   }
   
