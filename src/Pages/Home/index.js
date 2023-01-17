@@ -26,7 +26,7 @@ componentDidMount(){
 
 Loadpokemon = async () => {
     const{page,pokemonsPerPage} = this.state;
-    const pokemonresponse = fetch(`https://pokeapi.co/api/v2/pokemon?limit=151&offset=0`)
+    const pokemonresponse = fetch(`https://pokeapi.co/api/v2/pokemon?limit=1000&offset=0`)
         const [dados] = await Promise.all([pokemonresponse])
         const resultado = await dados.json()
             const resultadoconvertido = await resultado.results
@@ -88,7 +88,7 @@ render(){
       {filteredPokemon.length === 0 && (
         <>
         <h1>Não existe um pokemon com esse nome :c</h1>
-        <img src="https://i.pinimg.com/736x/b2/76/79/b27679b0aa21d81b12a0abb4e7db7ce1.jpg"></img>
+        
         </>
       )}
    
