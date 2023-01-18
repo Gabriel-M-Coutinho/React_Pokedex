@@ -3,7 +3,7 @@ import PokeCard from './components/PokeCards/index'
 import React from 'react';
 import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
+import ButtonVermais from './components/VerMais';
 import Pesquisa from './components/InputSearch/index'
 
 class Home extends React.Component{ 
@@ -97,15 +97,7 @@ render(){
       )}
    
       {!searchValue && (
-          <Button
-          className="justify-content-center"
-          onClick={this.loadMorePokemon}
-          variant="primary"
-          size="lg"
-          disabled={noMorePokemon}
-          style={{ margin: '30px 0px 50px 0px' }}>
-          Ver mais
-          </Button>
+        <ButtonVermais loadmore={this.loadMorePokemon} desabilitar={noMorePokemon}/>
       )}
     </div>
   );
