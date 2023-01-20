@@ -1,20 +1,20 @@
-import './styles.css'
+
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles.css'
+import './style.css'
 
-class Pesquisa extends React.Component{
+function Busca ({onChange,value}){
 
 /* --------------------------- Estilo da SearchBox -------------------------- */
-render(){return(
+return(
     <div align="center" className='md-auto' style={{ padding:'30px'}}>
         <input type="search" className="form-control rounded-pill" placeholder='Nome do Pokemon'
          style={{ width: '40rem', textAlign:'center' }}
-         onChange={this.props.mudar} value={this.props.valor}
+         onChange={onChange} value={value}
          >
         </input>
     </div>
-)}}
+)}
 
 
-export default Pesquisa
+export default Busca
