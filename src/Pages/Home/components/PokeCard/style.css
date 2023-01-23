@@ -1,4 +1,85 @@
+/* ---------------------------------- Fonts --------------------------------- */
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Jost', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@300;400&family=Jost:wght@300;500&display=swap");
+
 /* ---------------------------- focus pokemon png --------------------------- */
-.zoom:hover{
-    transform: scale(1.05);
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+.normal{
+  background-color:#545454 ;
+  color:white
+}
+.fire{
+  background-color: #ff5416;
+  color:white
+}
+.fighting{
+  background-color: #A40000;
+  color:white
+}
+.water{
+  background-color: #004AAD;
+  color:white
+}
+.flying{
+  background-color: #A6A6A6;
+  color:white
+}
+.grass{
+  background-color: #006c14;
+  color:white
+}
+.poison{
+  background-color: #7A4ED1;
+  color:white
+}
+.electric{
+  background-color: #9F8500;
+  color:white
+}
+.ground{
+  background-color: #9F2B00;
+  color:white
+}
+.psychic{
+  background-color: #CE21FF;
+  color:white
+}
+.rock{
+  background-color: #422217;
+  color:white
+}
+.ice{
+  background-color: #46B2AB;
+  color:white
+}
+.bug{
+  background-color: #47a434;
+  color:white
+}
+.dragon{
+  background-color: #5900FF;
+  color:white
+}
+.ghost{
+  background-color: #261742;
+  color:white
+}
+.dark{
+  background-color: #000000;
+  color:white
+}
+.steel{
+  background-color: #737373;
+  color:white
+}
+.fairy{
+  background-color: #FF66C4;
+  color:white
 }
