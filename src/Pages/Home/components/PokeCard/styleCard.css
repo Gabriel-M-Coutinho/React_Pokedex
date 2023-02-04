@@ -1,0 +1,197 @@
+/* ---------------------------------- Fonts --------------------------------- */
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'League Spartan', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* ---------------------------- estilo do card --------------------------- */
+
+h1 {
+  margin: 2% 0% 0% 0%;
+  font-size: 2vw;
+}
+
+h2 {
+  margin: 12% 0% 0% 0%;
+  font-size: 1vw;
+}
+
+/*Fundo escuro*/
+.fundoescuro {
+  width: 11vw;
+  height: 11vw;
+  margin: 0%;
+  padding: 0%;
+  background-color: #000000;
+}
+.typeescuro {
+  margin: 7% -7px 0px -7px;
+  background-color: #000000;
+  width: 38%;
+}
+
+/*estilo geral do card*/
+
+.estilocard {
+  background-color: white;
+  font-family: "Jost";
+  padding: 0% 1% 1.5% 1%;
+  min-width: 90px;
+  min-height: 130px;
+  max-width: 20%;
+  position: relative;
+}
+
+/*estilo fundo png*/
+.wallcard {
+  margin: 0%;
+  padding: 0%;
+  width: 11vw;
+  height: 11vw;
+  margin-top: 10%;
+}
+
+/*png do pokemon*/
+.pngcard {
+  width: 101%;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
+
+/*zoom png*/
+.pngcard:hover {
+  transform: scale(1.1);
+}
+
+/* ------------------------------- type colors ------------------------------ */
+
+/*estilo fonte geral*/
+.estilotype {
+  margin: 0%;
+  padding: 1%;
+  color: white;
+  font-weight: normal;
+  text-shadow: 0px 3px 1px #000000;
+  font-size: 0.9vw;
+  width: 100%;
+}
+
+.gaptype {
+  gap: 18px;
+}
+
+/*tipos BACKGROUND*/
+.normal.color {
+  background-color: #54545480;
+}
+.fire.color {
+  background-color: #ff541680;
+}
+.fighting.color {
+  background-color: #a4000080;
+}
+.water.color {
+  background-color: #004aad80;
+}
+.flying.color {
+  background-color: #a6a6a680;
+}
+.grass.color {
+  background-color: #006c1480;
+}
+.poison.color {
+  background-color: #7a4ed180;
+}
+.electric.color {
+  background-color: #9f850080;
+}
+.ground.color {
+  background-color: #9f2b0080;
+}
+.psychic.color {
+  background-color: #ce21ff80;
+}
+.rock.color {
+  background-color: #42221780;
+}
+.ice.color {
+  background-color: #46b2ab80;
+}
+.bug.color {
+  background-color: #6cdd5680;
+}
+.dragon.color {
+  background-color: #5900ff80;
+}
+.ghost.color {
+  background-color: #26174280;
+}
+.dark.color {
+  background-color: #00000080;
+}
+.steel.color {
+  background-color: #73737380;
+}
+.fairy.color {
+  background-color: #ff66c480;
+}
+
+/*tipos BORDER*/
+.normal.border {
+  box-shadow: #54545480 0.5vw 1vw;
+}
+.fire.border {
+  box-shadow: #ff541680 0.5vw 1vw;
+}
+.fighting.border {
+  box-shadow: #a4000080 0.5vw 1vw;
+}
+.water.border {
+  box-shadow: #004aad80 0.5vw 1vw;
+}
+.flying.border {
+  box-shadow: #a6a6a680 0.5vw 1vw;
+}
+.grass.border {
+  box-shadow: #006c1480 0.5vw 1vw;
+}
+.poison.border {
+  box-shadow: #7a4ed180 0.5vw 1vw;
+}
+.electric.border {
+  box-shadow: #9f850080 0.5vw 1vw;
+}
+.ground.border {
+  box-shadow: #9f2b0080 0.5vw 1vw;
+}
+.psychic.border {
+  box-shadow: #ce21ff80 0.5vw 1vw;
+}
+.rock.border {
+  box-shadow: #42221780 0.5vw 1vw;
+}
+.ice.border {
+  box-shadow: #46b2ab80 0.5vw 1vw;
+}
+.bug.border {
+  box-shadow: #6cdd5680 0.5vw 1vw;
+}
+.dragon.border {
+  box-shadow: #5900ff80 0.5vw 1vw;
+}
+.ghost.border {
+  box-shadow: #26174280 0.5vw 1vw;
+}
+.dark.border {
+  box-shadow: #00000080 0.5vw 1vw;
+}
+.steel.border {
+  box-shadow: #73737380 0.5vw 1vw;
+}
+.fairy.border {
+  box-shadow: #ff66c480 0.5vw 1vw;
+}

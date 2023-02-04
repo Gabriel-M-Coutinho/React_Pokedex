@@ -1,0 +1,38 @@
+/* ---------------------------------- Fonts --------------------------------- */
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'League Spartan', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* ---------------------------- estilos searchbox --------------------------- */
+.cabecalhoSB {
+  width: 60%;
+  text-align: center;
+  box-shadow: #0c041b 0px 5px;
+}
+
+.navbarSB {
+  font-size: 15px;
+  padding-right: 10px;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  box-shadow: #0c041b 0px 5px;
+}
+
+/* ---------------------------- shadow searchbox ---------------------------- */
+.cabecalhoSB.form-control:focus {
+  box-shadow: 0 0 8px #949494, #0c041b 0px 5px;
+}
+
+.navbarSB.form-control:focus {
+  box-shadow: #0c041b 0px 5px;
+}
+
+/*tirar placeholder*/
+input:focus::placeholder {
+  color: transparent;
+}

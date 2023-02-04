@@ -5,12 +5,13 @@ import { useState } from "react";
 import "./style.css";
 import PokeCard from "./components/PokeCard";
 import VerMais from "./components/VerMais";
-import Busca from "./components/Busca/Busca";
+import Cabecalho from "./components/Cabecalho/index";
+import Navbar from "./components/Navbar";
 
 /* ----------------------------- estilo do body ----------------------------- */
 function Home() {
   useEffect(() => {
-    document.body.style.backgroundColor = "gray";
+    document.body.style.backgroundColor = "#0c041b";
   }, []);
 
   /* ----------------------------- estados do home ---------------------------- */
@@ -79,14 +80,19 @@ function Home() {
   /* ----------------------------- render html jsx ---------------------------- */
   return (
     <div align="center">
-      {/* ----------------------------- input de pesquisa----------------------------- */}
-      <Busca onChange={handleChange} value={searchvalue} />
+      {/* ------------------------------- top navbar ------------------------------- */}
+      <Navbar />
+
+      {/* ----------------------------- Cabecalho ----------------------------- */}
+      <Cabecalho onChange={handleChange} value={searchvalue} />
+
+      {/* ----------------------------- Abas de filtro ----------------------------- */}
 
       {/* ----------------------------- For in Poke Cards ----------------------------- */}
       {filteredPokemon.length > 0 && (
         <div
-          className="d-flex flex-row flex-wrap mb-3 justify-content-center"
-          style={{ margin: "0px 50px 0px 50px" }}
+          className="gap1 d-flex flex-wrap justify-content-center"
+          style={{ margin: "5% 50px 0px 50px" }}
         >
           {filteredPokemon.map((pokemons) => (
             <PokeCard

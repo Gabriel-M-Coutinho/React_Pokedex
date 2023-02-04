@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./style.css";
+import "./styleCard.css";
 
 function PokeCard({ name, url, id }) {
   /* ----------------------------- estados do PokeCard ---------------------------- */
@@ -31,71 +30,43 @@ function PokeCard({ name, url, id }) {
     arr.forEach((e) => {
       types.push(e.type.name);
     });
+
     return types;
   }
 
   /* ---------------------------- retorno html jsx ---------------------------- */
   return (
-    <div className="flex" style={{ fontFamily: "Jost", width: "150px" }}>
-      <Card>
-        <div
-          className="rounded mx-auto d-block"
-          style={{
-            width: "100px",
-            height: "100px",
-            marginTop: "25px",
-            backgroundColor: "gray",
-          }}
-        ></div>
-        <Card.Img
-          className="position-absolute zoom"
-          style={{ width: "100%" }}
-          src={sprite}
-        />
-        <Card.Body>
-          <Card.Title>
-            <h3
-              className="text-capitalize"
-              style={{
-                marginTop: "2px",
-                fontSize: "18px",
-              }}
-            >
-              {name}
-            </h3>
-          </Card.Title>
-          <Card.Text>
-            {/*{id} {url}*/}
+    <div className={`rounded estilocard ${types[0]} border`}>
+      <div>
+        <div className="rounded fundoescuro">
+          <div className={`rounded wallcard ${types[0]} color`}>
+            <img className="pngcard" src={sprite} alt={name} />
+          </div>
+        </div>
+        <h2>{id}</h2>
+        <div>
+          <div>
+            <h1 className="text-capitalize">{name}</h1>
+          </div>
+          <div>
+            {/*{url}*/}
             {/* ------------------------------ box dos tipos ----------------------------- */}
-            <div
-              className="text-uppercase d-flex justify-content-center"
-              style={{
-                marginTop: "2px",
-                fontSize: "8px",
-                fontWeight: "normal",
-                color: "white",
-              }}
-            >
-              {types.map((t,index) => (
-                
-                <div
-                  className={`rounded ${t} ${index}`}
-                  style={{
-                    margin: "0px -7px 0px -7px",
-                    width: "45px",
-                    padding:"2px"
-                  }}
-                  key={t}
-                  
-                >
-                  {" "}
-                  {t}{" "}
+
+            <div className="text-uppercase gaptype d-flex justify-content-center">
+              {types.map((t, index) => (
+                <div className="rounded typeescuro">
+                  <div
+                    className={`rounded estilotype ${t} ${index} color`}
+                    key={t}
+                  >
+                    {t}
+                  </div>
                 </div>
               ))}
             </div>
-          </Card.Text>
-        </Card.Body>
-      </Card>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
