@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styleCard.css";
+import {Link} from 'react-router-dom'
 
 function PokeCard({ name, url, id }) {
   /* ----------------------------- estados do PokeCard ---------------------------- */
   const [sprite, setsprite] = useState();
   const [types, settypes] = useState([]);
+  const [result,setresult] = useState()
 
   /* ----------------------------- Component Did Mount ---------------------------- */
   useState(() => {
@@ -20,7 +22,8 @@ function PokeCard({ name, url, id }) {
     let types = gettypes(resultadoconvertido);
     settypes(types);
     setsprite(sprite);
-    console.log("getsprite usado");
+    setresult(resultadoconvertido)
+    //console.log("getsprite usado");
   }
   /* -------------------------------- get types ------------------------------- */
   function gettypes(dados) {
@@ -40,7 +43,7 @@ function PokeCard({ name, url, id }) {
       <div>
         <div className="rounded fundoescuro">
           <div className={`rounded wallcard ${types[0]} color`}>
-            <img className="pngcard" src={sprite} alt={name} />
+            <Link to={`/pokemon/${id}`} state={result}> <img className="pngcard" src={sprite} alt={name} /></Link> 
           </div>
         </div>
         <h2>{id}</h2>

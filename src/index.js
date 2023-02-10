@@ -1,12 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Home from "./Pages/Home/index";
+import Poke from './Pages/Pokemons/index'
 import reportWebVitals from "./reportWebVitals";
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Home />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/pokemon/:id" element={<Poke/>} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

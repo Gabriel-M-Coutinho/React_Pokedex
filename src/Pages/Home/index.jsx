@@ -25,7 +25,7 @@ function Home() {
   const GetPokemon = useCallback(
     async (page, pokemonsperpage) => {
       if (pokemons.length === 0 || pokemons.length < 1) {
-        console.log("get pokemon usado");
+        //console.log("get pokemon usado");
         const response = fetch(
           "https://pokeapi.co/api/v2/pokemon?limit=898&offset=0"
         );
