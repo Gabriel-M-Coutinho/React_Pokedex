@@ -5,18 +5,17 @@ font-family: 'Josefin Sans', sans-serif;
 font-family: 'Jost', sans-serif;
 font-family: 'League Spartan', sans-serif;
 */
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /* ------------------------- estilo cabecalho geral ------------------------- */
 /*div completa*/
+
 .estilonav {
-  min-height: 5%;
-  height: auto;
   width: 100%;
   background: transparent;
   position: fixed;
   z-index: 6;
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 
 .estilonav.active {
@@ -28,19 +27,25 @@ font-family: 'League Spartan', sans-serif;
 }
 
 .navbar-brand {
-  width: 150px;
+  margin-left: 3.5%;
+  width: 15vmin;
   height: auto;
+  transition: all 0.5s;
 }
 
-.searchsize {
-  width: 30%;
-  margin-right: -10%;
+.NavItem {
+  width: 500px;
 }
 
-.margem {
-  margin-right: 14%;
+.invisivel {
+  margin-right: 3.5%;
+  opacity: 0%;
+  pointer-events: none;
+  transition: all 0.2s;
 }
 
-.gap {
-  margin: 0px 10px 0px 10px;
+.visivel {
+  margin-right: 3.5%;
+  opacity: 100%;
+  transition: all 0.2s;
 }

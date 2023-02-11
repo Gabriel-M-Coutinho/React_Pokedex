@@ -8,7 +8,7 @@ function Busca({ onChange, value }) {
     <div align="center" className="md-auto" style={{ padding: "30px" }}>
       <input
         type="search"
-        className="cabecalhoSB form-control rounded-pill"
+        className="BuscaCabecalho form-control rounded-pill"
         placeholder="Nome ou ID"
         onChange={onChange}
         value={value}

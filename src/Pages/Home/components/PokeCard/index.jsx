@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styleCard.css";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 function PokeCard({ name, url, id }) {
   /* ----------------------------- estados do PokeCard ---------------------------- */
   const [sprite, setsprite] = useState();
   const [types, settypes] = useState([]);
-  const [result,setresult] = useState()
+  const [result, setresult] = useState();
 
   /* ----------------------------- Component Did Mount ---------------------------- */
   useState(() => {
@@ -22,7 +22,7 @@ function PokeCard({ name, url, id }) {
     let types = gettypes(resultadoconvertido);
     settypes(types);
     setsprite(sprite);
-    setresult(resultadoconvertido)
+    setresult(resultadoconvertido);
     //console.log("getsprite usado");
   }
   /* -------------------------------- get types ------------------------------- */
@@ -40,35 +40,24 @@ function PokeCard({ name, url, id }) {
   /* ---------------------------- retorno html jsx ---------------------------- */
   return (
     <div className={`rounded estilocard ${types[0]} border`}>
-      <div>
-        <div className="rounded fundoescuro">
-          <div className={`rounded wallcard ${types[0]} color`}>
-            <Link to={`/pokemon/${id}`} state={result}> <img className="pngcard" src={sprite} alt={name} /></Link> 
-          </div>
+      <div className="rounded fundoescuro">
+        <div className={`rounded wallcard ${types[0]} color`}>
+          <Link to={`/pokemon/${id}`} state={result} sprite={sprite}>
+            {" "}
+            <img className="pngcard" src={sprite} alt={name} />
+          </Link>
         </div>
-        <h2>{id}</h2>
-        <div>
-          <div>
-            <h1 className="text-capitalize">{name}</h1>
-          </div>
-          <div>
-            {/*{url}*/}
-            {/* ------------------------------ box dos tipos ----------------------------- */}
-
-            <div className="text-uppercase gaptype d-flex justify-content-center">
-              {types.map((t, index) => (
-                <div className="rounded typeescuro">
-                  <div
-                    className={`rounded estilotype ${t} ${index} color`}
-                    key={t}
-                  >
-                    {t}
-                  </div>
-                </div>
-              ))}
+      </div>
+      <h1 className="h1card text-capitalize">{name}</h1>
+      {/* ------------------------------ box dos tipos ----------------------------- */}
+      <div className="text-uppercase gaptype d-flex justify-content-center">
+        {types.map((t, index) => (
+          <div className="rounded typeescuro">
+            <div className={`rounded estilotype ${t} ${index} color`} key={t}>
+              {t}
             </div>
           </div>
-        </div>
+        ))}
       </div>
     </div>
   );

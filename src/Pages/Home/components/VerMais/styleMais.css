@@ -6,3 +6,17 @@ font-family: 'Jost', sans-serif;
 font-family: 'League Spartan', sans-serif;
 */
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.estilobotao {
+  font-size: 1.7vmin;
+  font-family: "Jost";
+  background-color: #3e2272;
+  border: 0px;
+}
+
+.estilobotao:hover {
+  font-size: 1.75vmin;
+  font-family: "Jost";
+  background-color: #633ab1;
+  border: 0px;
+}

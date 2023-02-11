@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 function VerMais(props) {
   return (
     <Button
-      className="justify-content-center"
+      className="justify-content-center estilobotao"
       onClick={props.onClick}
       variant="primary"
       size="lg"

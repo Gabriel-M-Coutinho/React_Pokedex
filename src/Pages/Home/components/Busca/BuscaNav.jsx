@@ -8,7 +8,7 @@ function Busca({ onChange, value }) {
     <div align="center">
       <input
         type="search"
-        className="navbarSB form-control rounded-pill"
+        className="BuscaNavbar form-control rounded-pill"
         placeholder="Nome ou ID"
         onChange={onChange}
         value={value}

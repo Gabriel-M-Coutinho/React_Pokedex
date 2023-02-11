@@ -19,7 +19,7 @@ function Home() {
   const [searchvalue, setsearchvalue] = useState("");
   const [allpokemons, setallpokemons] = useState([]);
   const [page, setpage] = useState(0);
-  const [pokemonsperpage] = useState(18);
+  const [pokemonsperpage] = useState(30);
 
   /* ------------------------ Funcao de request na api ------------------------ */
   const GetPokemon = useCallback(
@@ -81,7 +81,7 @@ function Home() {
   return (
     <div align="center">
       {/* ------------------------------- top navbar ------------------------------- */}
-      <Navbar />
+      <Navbar onChange={handleChange} value={searchvalue} />
 
       {/* ----------------------------- Cabecalho ----------------------------- */}
       <Cabecalho onChange={handleChange} value={searchvalue} />
@@ -92,7 +92,7 @@ function Home() {
       {filteredPokemon.length > 0 && (
         <div
           className="gap1 d-flex flex-wrap justify-content-center"
-          style={{ margin: "5% 50px 0px 50px" }}
+          style={{ margin: "5% 3% 3% 3%" }}
         >
           {filteredPokemon.map((pokemons) => (
             <PokeCard
@@ -106,9 +106,12 @@ function Home() {
       )}
 
       {/* ----------------------------- botao VerMais ----------------------------- */}
-      {!searchvalue && (
-        <VerMais onClick={loadmorepokemon} desabilitar={noMorePokemon} />
-      )}
+
+      <div style={{ marginBottom: "3%" }}>
+        {!searchvalue && (
+          <VerMais onClick={loadmorepokemon} desabilitar={noMorePokemon} />
+        )}
+      </div>
     </div>
   );
 }

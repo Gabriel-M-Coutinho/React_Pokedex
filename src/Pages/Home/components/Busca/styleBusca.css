@@ -5,30 +5,30 @@ font-family: 'Josefin Sans', sans-serif;
 font-family: 'Jost', sans-serif;
 font-family: 'League Spartan', sans-serif;
 */
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /* ---------------------------- estilos searchbox --------------------------- */
-.cabecalhoSB {
-  width: 60%;
+.BuscaCabecalho {
+  width: 100%;
   text-align: center;
   box-shadow: #0c041b 0px 5px;
 }
 
-.navbarSB {
+.BuscaNavbar {
   font-size: 15px;
   padding-right: 10px;
-  width: 100%;
+  width: 40vw;
   height: auto;
   text-align: left;
   box-shadow: #0c041b 0px 5px;
 }
 
 /* ---------------------------- shadow searchbox ---------------------------- */
-.cabecalhoSB.form-control:focus {
+.BuscaCabecalho.form-control:focus {
   box-shadow: 0 0 8px #949494, #0c041b 0px 5px;
 }
 
-.navbarSB.form-control:focus {
+.BuscaNavbar.form-control:focus {
   box-shadow: #0c041b 0px 5px;
 }
 
