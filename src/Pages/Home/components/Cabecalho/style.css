@@ -1,0 +1,133 @@
+/* ---------------------------------- Fonts --------------------------------- */
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'League Spartan', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* ------------------------- estilo cabecalho geral ------------------------- */
+
+.toposize {
+  height: 60vmin;
+  margin: 0px;
+  padding: 0px;
+  background-size: 180% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../../../../Images/wave.png");
+}
+
+.topo {
+  font-family: "League Spartan";
+  width: 100%;
+  height: 60vmin;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+}
+
+.fundotopo {
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(
+    130deg,
+    #c33764 0%,
+    #3e2272 50%,
+    #3e2272 70%,
+    #c33764 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
+
+.h3cab {
+  margin: 10% 0% 0% 0%;
+  font-size: max(7vmin, 10px);
+  color: white;
+  text-shadow: 0 5px #0c041b;
+  animation: focusfont 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.h2cab {
+  margin-bottom: 30px;
+  font-size: max(12.2vmin, 20px);
+  text-transform: uppercase;
+  color: white;
+  animation: text-shadow-pop-bottom 1s 0.5s both;
+}
+
+.pesquisaCab {
+  margin-top: -120px;
+  width: 56vmin;
+}
+
+/**
+ * ----------------------------------------
+ * animation Gradient
+ * ----------------------------------------
+ */
+@keyframes Gradient {
+  0% {
+    background-position: 0% 51%;
+  }
+  20% {
+    background-position: 100% 50%;
+  }
+  40% {
+    background-position: 100% 50%;
+  }
+  60% {
+    background-position: 100% 50%;
+  }
+  80% {
+    background-position: 0% 51%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
+}
+
+/**
+ * ----------------------------------------
+ * animation focusfont
+ * ----------------------------------------
+ */
+@keyframes focusfont {
+  0% {
+    letter-spacing: -0.1em;
+    filter: blur(3px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+/**
+ * ----------------------------------------
+ * animation text-shadow-pop-bottom
+ * ----------------------------------------
+ */
+@keyframes text-shadow-pop-bottom {
+  0% {
+    text-shadow: 0 0 #0c041b, 0 0 #0c041b, 0 0 #0c041b, 0 0 #0c041b, 0 0 #0c041b,
+      0 0 #0c041b, 0 0 #0c041b, 0 0 #0c041b;
+    transform: translateY(0);
+    filter: blur(1px);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+  100% {
+    text-shadow: 0 1px #0c041b, 0 2px #0c041b, 0 3px #0c041b, 0 4px #0c041b,
+      0 5px #0c041b, 0 6px #0c041b, 0 7px #0c041b, 0 10px #0c041b;
+    transform: translateY(-10px);
+  }
+}

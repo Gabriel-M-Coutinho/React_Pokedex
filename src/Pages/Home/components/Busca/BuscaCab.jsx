@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./styleBusca.css";
+import "./style.css";
 
 function Busca({ onChange, value }) {
   /* --------------------------- Estilo da SearchBox -------------------------- */

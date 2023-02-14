@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./styleCard.css";
+import "./style.css";
 import { Link } from "react-router-dom";
 
 function PokeCard({ name, url, id }) {
@@ -52,7 +52,7 @@ function PokeCard({ name, url, id }) {
       {/* ------------------------------ box dos tipos ----------------------------- */}
       <div className="text-uppercase gaptype d-flex justify-content-center">
         {types.map((t, index) => (
-          <div className="rounded typeescuro">
+          <div key={t} className="rounded typeescuro">
             <div className={`rounded estilotype ${t} ${index} color`} key={t}>
               {t}
             </div>

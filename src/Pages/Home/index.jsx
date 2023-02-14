@@ -19,7 +19,7 @@ function Home() {
   const [searchvalue, setsearchvalue] = useState("");
   const [allpokemons, setallpokemons] = useState([]);
   const [page, setpage] = useState(0);
-  const [pokemonsperpage] = useState(30);
+  const [pokemonsperpage] = useState(50);
 
   /* ------------------------ Funcao de request na api ------------------------ */
   const GetPokemon = useCallback(
@@ -92,7 +92,7 @@ function Home() {
       {filteredPokemon.length > 0 && (
         <div
           className="gap1 d-flex flex-wrap justify-content-center"
-          style={{ margin: "5% 3% 3% 3%" }}
+          style={{ margin: "5% 4% 3% 4%" }}
         >
           {filteredPokemon.map((pokemons) => (
             <PokeCard

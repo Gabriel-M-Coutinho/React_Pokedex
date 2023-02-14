@@ -29,8 +29,9 @@ font-family: 'League Spartan', sans-serif;
 .navbar-brand {
   margin-left: 3.5%;
   width: 15vmin;
+  min-width: 100px;
   height: auto;
-  transition: all 0.5s;
+  animation: logoblur 1s 1s both;
 }
 
 .NavItem {
@@ -41,11 +42,23 @@ font-family: 'League Spartan', sans-serif;
   margin-right: 3.5%;
   opacity: 0%;
   pointer-events: none;
-  transition: all 0.2s;
+  transition: all 0.3s;
 }
 
 .visivel {
   margin-right: 3.5%;
   opacity: 100%;
-  transition: all 0.2s;
+  transition: all 0.5s;
+}
+
+@keyframes logoblur {
+  0% {
+    filter: blur(3px);
+    opacity: 0;
+  }
+
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
 }

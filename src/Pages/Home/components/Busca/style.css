@@ -1,0 +1,42 @@
+/* ---------------------------------- Fonts --------------------------------- */
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'League Spartan', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* ---------------------------- estilos searchbox --------------------------- */
+.BuscaCabecalho {
+  width: 100%;
+  font-size: 2vmin;
+  text-align: center;
+  box-shadow: #0c041b 0px 7px;
+  transition: all 0.2s;
+}
+
+.BuscaNavbar {
+  font-size: 1.4vmin;
+  padding-right: 10px;
+  width: 40vw;
+  height: auto;
+  text-align: left;
+  transition: all 0.2s;
+}
+
+/* ---------------------------- shadow searchbox ---------------------------- */
+.BuscaCabecalho.form-control:focus {
+  transform: translateY(-5px);
+  transition: all 0.2s;
+  box-shadow: 0 0 8px #3e2272, #3e2272 0px 5px;
+}
+
+.BuscaNavbar.form-control:focus {
+  box-shadow: 0 0 8px #3e2272;
+}
+
+/*tirar placeholder*/
+input:focus::placeholder {
+  color: transparent;
+}

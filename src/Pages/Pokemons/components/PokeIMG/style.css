@@ -1,0 +1,290 @@
+/* ---------------------------------- Fonts --------------------------------- */
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'League Spartan', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.pokepag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  margin: 0%;
+  padding: 0%;
+  font-family: "League Spartan";
+  z-index: 0;
+}
+
+.pokepagfront {
+  height: 40vh;
+  width: 100%;
+  background-size: 150% 110%;
+  background-position: -180px;
+  background-repeat: no-repeat;
+  background-image: url("../../../../Images/wave.png");
+  z-index: 1;
+}
+
+.pokepagcircle {
+  animation: text-shadow-pop-bottom 1s both;
+  width: 27vmin;
+  height: 27vmin;
+  margin: 80px 0px 2px 0px;
+  min-width: 230px;
+  min-height: 230px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffffbb;
+  border-radius: 50%;
+  z-index: 6;
+}
+
+.pokepagimg {
+  position: absolute;
+  animation: text-shadow-pop-bottom 1.5s 0.5s both;
+  width: 40vmin;
+  min-width: 300px;
+  margin: 8% 0px 2px 0px;
+  padding: 0px;
+}
+
+.pokepagname {
+  margin: 2vw 0px 2vw 0px;
+  text-shadow: 0 6px #3e2272;
+  text-transform: capitalize;
+  font-size: max(6vmin, 40px);
+  color: #fff;
+  animation: focusfont 1s 0.2s both;
+}
+
+p.pokepagname {
+  margin: 0% 0px 0px 0px;
+  text-shadow: 0 3px #3e2272;
+  font-size: max(2vmin, 20px);
+}
+
+/* ----------------------------- types gradient ----------------------------- */
+/*tipos BACKGROUND*/
+.normal.gradient {
+  background-color: #54545480;
+  background: linear-gradient(
+    130deg,
+    #686868 0%,
+    #54545480 50%,
+    #54545480 70%,
+    #686868 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
+.fire.gradient {
+  background-color: #ff541680;
+  background: linear-gradient(
+    130deg,
+    #ff6016 0%,
+    #ff541680 50%,
+    #ff541680 70%,
+    #ff6016 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
+.fighting.gradient {
+  background-color: #a4000080;
+  background: linear-gradient(
+    130deg,
+    #dd0d0d 0%,
+    #a4000080 50%,
+    #a4000080 70%,
+    #dd0d0d 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
+.water.gradient {
+  background-color: #004aad80;
+  background: linear-gradient(
+    130deg,
+    #1e7cf7 0%,
+    #004aad80 50%,
+    #004aad80 70%,
+    #1e7cf7 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
+.flying.gradient {
+  background-color: #a6a6a680;
+  background: linear-gradient(
+    130deg,
+    #d4d4d4 0%,
+    #a6a6a680 50%,
+    #a6a6a680 70%,
+    #d4d4d4 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
+.grass.gradient {
+  background-color: #006c1480;
+  background: linear-gradient(
+    130deg,
+    #00911b 0%,
+    #006c1480 50%,
+    #006c1480 70%,
+    #00911b 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
+.poison.gradient {
+  background-color: #7a4ed180;
+  background: linear-gradient(
+    130deg,
+    #9d72f5 0%,
+    #7a4ed180 50%,
+    #7a4ed180 70%,
+    #9d72f5 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
+.electric.gradient {
+  background-color: #bb9d05c2;
+  background: linear-gradient(
+    130deg,
+    #ffd500 0%,
+    #bb9d05ad 50%,
+    #bb9d05ad 70%,
+    #ffd500 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
+.ground.gradient {
+  background-color: #9f2b0080;
+  background: linear-gradient(
+    130deg,
+    #8d5000 0%,
+    #9f2b0080 50%,
+    #9f2b0080 70%,
+    #8d5000 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
+.psychic.gradient {
+  background-color: #ce21ff80;
+  background: linear-gradient(
+    130deg,
+    #f945ff 0%,
+    #ce21ff80 50%,
+    #ce21ff80 70%,
+    #f945ff 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
+.rock.gradient {
+  background-color: #42221780;
+  background: linear-gradient(
+    130deg,
+    #7c3b25 0%,
+    #42221780 50%,
+    #42221780 70%,
+    #7c3b25 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
+.ice.gradient {
+  background-color: #46b2ab80;
+  background: linear-gradient(
+    130deg,
+    #56fff4 0%,
+    #46b2ab80 50%,
+    #46b2ab80 70%,
+    #56fff4 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
+.bug.gradient {
+  background: linear-gradient(
+    130deg,
+    #79ec62 0%,
+    #6cdd5680 50%,
+    #6cdd5680 70%,
+    #79ec62 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
+.dragon.gradient {
+  background-color: #2f00ff80;
+  background: linear-gradient(
+    130deg,
+    #5f33ff 0%,
+    #2f00ff80 50%,
+    #2f00ff80 70%,
+    #5f33ff 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
+.ghost.gradient {
+  background-color: #26174280;
+  background: linear-gradient(
+    130deg,
+    #3a2d53 0%,
+    #26174280 50%,
+    #26174280 70%,
+    #3a2d53 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
+.dark.gradient {
+  background-color: #000000;
+  background: linear-gradient(
+    130deg,
+    #2e2e2e 0%,
+    #000000 50%,
+    #000000 70%,
+    #2e2e2e 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
+.steel.gradient {
+  background-color: #73737380;
+  background: linear-gradient(
+    130deg,
+    #7e7e88 0%,
+    #73737380 50%,
+    #73737380 70%,
+    #7e7e88 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
+.fairy.gradient {
+  background-color: #ff66c480;
+  background: linear-gradient(
+    130deg,
+    #ff8fd4 0%,
+    #ff66c480 50%,
+    #ff66c480 70%,
+    #ff8fd4 100%
+  );
+  background-size: 200% 200%;
+  animation: Gradient 30s ease infinite;
+}
