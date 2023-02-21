@@ -22,7 +22,13 @@ function Poke() {
       fetch(evolutionChainUrl)
         .then((res) => res.json())
         .then((data) => {
-          setEvolutionChain(data.chain);
+          let current = data.chain
+          let evolutions = []
+          while(current){
+            evolutions.push(current.species.name)
+            current = current.evolves_to[0]
+          }
+          setEvolutionChain(evolutions)
         })
         .catch((err) => {
           console.error(err);
@@ -44,12 +50,13 @@ function Poke() {
 
   return (
     <div className="d-flex flex-wrap estilobox">
+      <PokeIMG />
       {evolutionChain ?(
-      evolutionChain.evolves_to.map(evolution => {
-        return  <PokeData pokename2={evolution.species.name} key={evolution.species.name} />
+      evolutionChain.map(name => {
+        return  <PokeData pokename={name} key={name} />
       })):("loanding..")
       }
-      <PokeIMG />
+      
       
     </div>
   );
