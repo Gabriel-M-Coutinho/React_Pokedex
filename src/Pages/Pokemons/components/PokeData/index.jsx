@@ -8,7 +8,7 @@ const PokemonEvolutions = ({ pokename }) => {
  
 
   const getsprite = useCallback(()=>{
-      
+    
     fetch(`https://pokeapi.co/api/v2/pokemon/${pokename}`)
       .then((result)=>{
         return result.json()

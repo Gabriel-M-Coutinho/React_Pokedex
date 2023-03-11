@@ -1,0 +1,6227 @@
+[
+    {
+        "name": "bulbasaur",
+        "evo": [
+            "Ivysaur",
+            "Venusaur",
+            "Bulbasaur"
+        ]
+    },
+    {
+        "name": "ivysaur",
+        "evo": [
+            "Ivysaur",
+            "Venusaur",
+            "Bulbasaur"
+        ]
+    },
+    {
+        "name": "venusaur",
+        "evo": [
+            "Ivysaur",
+            "Venusaur",
+            "Bulbasaur"
+        ]
+    },
+    {
+        "name": "charmander",
+        "evo": [
+            "Charmander",
+            "Charmeleon",
+            "Charizard"
+        ]
+    },
+    {
+        "name": "charmeleon",
+        "evo": [
+            "Charmander",
+            "Charmeleon",
+            "Charizard"
+        ]
+    },
+    {
+        "name": "charizard",
+        "evo": [
+            "Charmander",
+            "Charmeleon",
+            "Charizard"
+        ]
+    },
+    {
+        "name": "squirtle",
+        "evo": [
+            "Wartortle",
+            "Blastoise",
+            "Squirtle"
+        ]
+    },
+    {
+        "name": "wartortle",
+        "evo": [
+            "Wartortle",
+            "Blastoise",
+            "Squirtle"
+        ]
+    },
+    {
+        "name": "blastoise",
+        "evo": [
+            "Wartortle",
+            "Blastoise",
+            "Squirtle"
+        ]
+    },
+    {
+        "name": "caterpie",
+        "evo": [
+            "Butterfree",
+            "Metapod",
+            "Caterpie"
+        ]
+    },
+    {
+        "name": "metapod",
+        "evo": [
+            "Butterfree",
+            "Metapod",
+            "Caterpie"
+        ]
+    },
+    {
+        "name": "butterfree",
+        "evo": [
+            "Butterfree",
+            "Metapod",
+            "Caterpie"
+        ]
+    },
+    {
+        "name": "weedle",
+        "evo": [
+            "Beedrill",
+            "Kakuna",
+            "Weedle"
+        ]
+    },
+    {
+        "name": "kakuna",
+        "evo": [
+            "Beedrill",
+            "Kakuna",
+            "Weedle"
+        ]
+    },
+    {
+        "name": "beedrill",
+        "evo": [
+            "Beedrill",
+            "Kakuna",
+            "Weedle"
+        ]
+    },
+    {
+        "name": "pidgey",
+        "evo": [
+            "Pidgeotto",
+            "Pidgeot",
+            "Pidgey"
+        ]
+    },
+    {
+        "name": "pidgeotto",
+        "evo": [
+            "Pidgeotto",
+            "Pidgeot",
+            "Pidgey"
+        ]
+    },
+    {
+        "name": "pidgeot",
+        "evo": [
+            "Pidgeotto",
+            "Pidgeot",
+            "Pidgey"
+        ]
+    },
+    {
+        "name": "rattata",
+        "evo": [
+            "Raticate",
+            "Rattata"
+        ]
+    },
+    {
+        "name": "raticate",
+        "evo": [
+            "Raticate",
+            "Rattata"
+        ]
+    },
+    {
+        "name": "spearow",
+        "evo": [
+            "Spearow",
+            "Fearow"
+        ]
+    },
+    {
+        "name": "fearow",
+        "evo": [
+            "Spearow",
+            "Fearow"
+        ]
+    },
+    {
+        "name": "ekans",
+        "evo": [
+            "Arbok",
+            "Ekans"
+        ]
+    },
+    {
+        "name": "arbok",
+        "evo": [
+            "Arbok",
+            "Ekans"
+        ]
+    },
+    {
+        "name": "pikachu",
+        "evo": [
+            "Raichu",
+            "Pichu",
+            "Pikachu"
+        ]
+    },
+    {
+        "name": "raichu",
+        "evo": [
+            "Raichu",
+            "Pichu",
+            "Pikachu"
+        ]
+    },
+    {
+        "name": "sandshrew",
+        "evo": [
+            "Sandshrew",
+            "Sandslash"
+        ]
+    },
+    {
+        "name": "sandslash",
+        "evo": [
+            "Sandshrew",
+            "Sandslash"
+        ]
+    },
+    {
+        "name": "nidoran-f",
+        "evo": [
+            "Nidoran\u2640",
+            "Nidorina",
+            "Nidoqueen"
+        ]
+    },
+    {
+        "name": "nidorina",
+        "evo": [
+            "Nidoran\u2640",
+            "Nidorina",
+            "Nidoqueen"
+        ]
+    },
+    {
+        "name": "nidoqueen",
+        "evo": [
+            "Nidoran\u2640",
+            "Nidorina",
+            "Nidoqueen"
+        ]
+    },
+    {
+        "name": "nidoran-m",
+        "evo": [
+            "Nidoran\u2642",
+            "Nidoking",
+            "Nidorino"
+        ]
+    },
+    {
+        "name": "nidorino",
+        "evo": [
+            "Nidoran\u2642",
+            "Nidoking",
+            "Nidorino"
+        ]
+    },
+    {
+        "name": "nidoking",
+        "evo": [
+            "Nidoran\u2642",
+            "Nidoking",
+            "Nidorino"
+        ]
+    },
+    {
+        "name": "clefairy",
+        "evo": [
+            "Cleffa",
+            "Clefairy",
+            "Clefable"
+        ]
+    },
+    {
+        "name": "clefable",
+        "evo": [
+            "Cleffa",
+            "Clefairy",
+            "Clefable"
+        ]
+    },
+    {
+        "name": "vulpix",
+        "evo": [
+            "Ninetales",
+            "Vulpix"
+        ]
+    },
+    {
+        "name": "ninetales",
+        "evo": [
+            "Ninetales",
+            "Vulpix"
+        ]
+    },
+    {
+        "name": "jigglypuff",
+        "evo": [
+            "Wigglytuff",
+            "Igglybuff",
+            "Jigglypuff"
+        ]
+    },
+    {
+        "name": "wigglytuff",
+        "evo": [
+            "Wigglytuff",
+            "Igglybuff",
+            "Jigglypuff"
+        ]
+    },
+    {
+        "name": "zubat",
+        "evo": [
+            "Zubat",
+            "Crobat",
+            "Golbat"
+        ]
+    },
+    {
+        "name": "golbat",
+        "evo": [
+            "Zubat",
+            "Crobat",
+            "Golbat"
+        ]
+    },
+    {
+        "name": "oddish",
+        "evo": [
+            "Oddish",
+            "Bellossom",
+            "Vileplume",
+            "Gloom"
+        ]
+    },
+    {
+        "name": "gloom",
+        "evo": [
+            "Oddish",
+            "Bellossom",
+            "Vileplume",
+            "Gloom"
+        ]
+    },
+    {
+        "name": "vileplume",
+        "evo": [
+            "Oddish",
+            "Bellossom",
+            "Vileplume",
+            "Gloom"
+        ]
+    },
+    {
+        "name": "paras",
+        "evo": [
+            "Parasect",
+            "Paras"
+        ]
+    },
+    {
+        "name": "parasect",
+        "evo": [
+            "Parasect",
+            "Paras"
+        ]
+    },
+    {
+        "name": "venonat",
+        "evo": [
+            "Venonat",
+            "Venomoth"
+        ]
+    },
+    {
+        "name": "venomoth",
+        "evo": [
+            "Venonat",
+            "Venomoth"
+        ]
+    },
+    {
+        "name": "diglett",
+        "evo": [
+            "Dugtrio",
+            "Diglett"
+        ]
+    },
+    {
+        "name": "dugtrio",
+        "evo": [
+            "Dugtrio",
+            "Diglett"
+        ]
+    },
+    {
+        "name": "meowth",
+        "evo": [
+            "Persian",
+            "Perrserker",
+            "Meowth"
+        ]
+    },
+    {
+        "name": "persian",
+        "evo": [
+            "Persian",
+            "Perrserker",
+            "Meowth"
+        ]
+    },
+    {
+        "name": "psyduck",
+        "evo": [
+            "Psyduck",
+            "Golduck"
+        ]
+    },
+    {
+        "name": "golduck",
+        "evo": [
+            "Psyduck",
+            "Golduck"
+        ]
+    },
+    {
+        "name": "mankey",
+        "evo": [
+            "Mankey",
+            "Annihilape",
+            "Primeape"
+        ]
+    },
+    {
+        "name": "primeape",
+        "evo": [
+            "Mankey",
+            "Annihilape",
+            "Primeape"
+        ]
+    },
+    {
+        "name": "growlithe",
+        "evo": [
+            "Arcanine",
+            "Growlithe"
+        ]
+    },
+    {
+        "name": "arcanine",
+        "evo": [
+            "Arcanine",
+            "Growlithe"
+        ]
+    },
+    {
+        "name": "poliwag",
+        "evo": [
+            "Poliwrath",
+            "Poliwag",
+            "Poliwhirl",
+            "Politoed"
+        ]
+    },
+    {
+        "name": "poliwhirl",
+        "evo": [
+            "Poliwrath",
+            "Poliwag",
+            "Poliwhirl",
+            "Politoed"
+        ]
+    },
+    {
+        "name": "poliwrath",
+        "evo": [
+            "Poliwrath",
+            "Poliwag",
+            "Poliwhirl",
+            "Politoed"
+        ]
+    },
+    {
+        "name": "abra",
+        "evo": [
+            "Abra",
+            "Kadabra",
+            "Alakazam"
+        ]
+    },
+    {
+        "name": "kadabra",
+        "evo": [
+            "Abra",
+            "Kadabra",
+            "Alakazam"
+        ]
+    },
+    {
+        "name": "alakazam",
+        "evo": [
+            "Abra",
+            "Kadabra",
+            "Alakazam"
+        ]
+    },
+    {
+        "name": "machop",
+        "evo": [
+            "Machop",
+            "Machoke",
+            "Machamp"
+        ]
+    },
+    {
+        "name": "machoke",
+        "evo": [
+            "Machop",
+            "Machoke",
+            "Machamp"
+        ]
+    },
+    {
+        "name": "machamp",
+        "evo": [
+            "Machop",
+            "Machoke",
+            "Machamp"
+        ]
+    },
+    {
+        "name": "bellsprout",
+        "evo": [
+            "Bellsprout",
+            "Victreebel",
+            "Weepinbell"
+        ]
+    },
+    {
+        "name": "weepinbell",
+        "evo": [
+            "Bellsprout",
+            "Victreebel",
+            "Weepinbell"
+        ]
+    },
+    {
+        "name": "victreebel",
+        "evo": [
+            "Bellsprout",
+            "Victreebel",
+            "Weepinbell"
+        ]
+    },
+    {
+        "name": "tentacool",
+        "evo": [
+            "Tentacruel",
+            "Tentacool"
+        ]
+    },
+    {
+        "name": "tentacruel",
+        "evo": [
+            "Tentacruel",
+            "Tentacool"
+        ]
+    },
+    {
+        "name": "geodude",
+        "evo": [
+            "Geodude",
+            "Graveler",
+            "Golem"
+        ]
+    },
+    {
+        "name": "graveler",
+        "evo": [
+            "Geodude",
+            "Graveler",
+            "Golem"
+        ]
+    },
+    {
+        "name": "golem",
+        "evo": [
+            "Geodude",
+            "Graveler",
+            "Golem"
+        ]
+    },
+    {
+        "name": "ponyta",
+        "evo": [
+            "Ponyta",
+            "Rapidash"
+        ]
+    },
+    {
+        "name": "rapidash",
+        "evo": [
+            "Ponyta",
+            "Rapidash"
+        ]
+    },
+    {
+        "name": "slowpoke",
+        "evo": [
+            "Slowpoke",
+            "Slowbro",
+            "Slowking"
+        ]
+    },
+    {
+        "name": "slowbro",
+        "evo": [
+            "Slowpoke",
+            "Slowbro",
+            "Slowking"
+        ]
+    },
+    {
+        "name": "magnemite",
+        "evo": [
+            "Magnemite",
+            "Magneton",
+            "Magnezone"
+        ]
+    },
+    {
+        "name": "magneton",
+        "evo": [
+            "Magnemite",
+            "Magneton",
+            "Magnezone"
+        ]
+    },
+    {
+        "name": "farfetchd",
+        "evo": [
+            "Sirfetch'd",
+            "Farfetch'd"
+        ]
+    },
+    {
+        "name": "doduo",
+        "evo": [
+            "Dodrio",
+            "Doduo"
+        ]
+    },
+    {
+        "name": "dodrio",
+        "evo": [
+            "Dodrio",
+            "Doduo"
+        ]
+    },
+    {
+        "name": "seel",
+        "evo": [
+            "Dewgong",
+            "Seel"
+        ]
+    },
+    {
+        "name": "dewgong",
+        "evo": [
+            "Dewgong",
+            "Seel"
+        ]
+    },
+    {
+        "name": "grimer",
+        "evo": [
+            "Grimer",
+            "Muk"
+        ]
+    },
+    {
+        "name": "muk",
+        "evo": [
+            "Grimer",
+            "Muk"
+        ]
+    },
+    {
+        "name": "shellder",
+        "evo": [
+            "Shellder",
+            "Cloyster"
+        ]
+    },
+    {
+        "name": "cloyster",
+        "evo": [
+            "Shellder",
+            "Cloyster"
+        ]
+    },
+    {
+        "name": "gastly",
+        "evo": [
+            "Haunter",
+            "Gastly",
+            "Gengar"
+        ]
+    },
+    {
+        "name": "haunter",
+        "evo": [
+            "Haunter",
+            "Gastly",
+            "Gengar"
+        ]
+    },
+    {
+        "name": "gengar",
+        "evo": [
+            "Haunter",
+            "Gastly",
+            "Gengar"
+        ]
+    },
+    {
+        "name": "onix",
+        "evo": [
+            "Steelix",
+            "Onix"
+        ]
+    },
+    {
+        "name": "drowzee",
+        "evo": [
+            "Hypno",
+            "Drowzee"
+        ]
+    },
+    {
+        "name": "hypno",
+        "evo": [
+            "Hypno",
+            "Drowzee"
+        ]
+    },
+    {
+        "name": "krabby",
+        "evo": [
+            "Krabby",
+            "Kingler"
+        ]
+    },
+    {
+        "name": "kingler",
+        "evo": [
+            "Krabby",
+            "Kingler"
+        ]
+    },
+    {
+        "name": "voltorb",
+        "evo": [
+            "Voltorb",
+            "Electrode"
+        ]
+    },
+    {
+        "name": "electrode",
+        "evo": [
+            "Voltorb",
+            "Electrode"
+        ]
+    },
+    {
+        "name": "exeggcute",
+        "evo": [
+            "Exeggutor",
+            "Exeggcute"
+        ]
+    },
+    {
+        "name": "exeggutor",
+        "evo": [
+            "Exeggutor",
+            "Exeggcute"
+        ]
+    },
+    {
+        "name": "cubone",
+        "evo": [
+            "Cubone",
+            "Marowak"
+        ]
+    },
+    {
+        "name": "marowak",
+        "evo": [
+            "Cubone",
+            "Marowak"
+        ]
+    },
+    {
+        "name": "hitmonlee",
+        "evo": [
+            "Hitmonchan",
+            "Hitmonlee",
+            "Hitmontop",
+            "Tyrogue"
+        ]
+    },
+    {
+        "name": "hitmonchan",
+        "evo": [
+            "Hitmonchan",
+            "Hitmonlee",
+            "Hitmontop",
+            "Tyrogue"
+        ]
+    },
+    {
+        "name": "lickitung",
+        "evo": [
+            "Lickilicky",
+            "Lickitung"
+        ]
+    },
+    {
+        "name": "koffing",
+        "evo": [
+            "Koffing",
+            "Weezing"
+        ]
+    },
+    {
+        "name": "weezing",
+        "evo": [
+            "Koffing",
+            "Weezing"
+        ]
+    },
+    {
+        "name": "rhyhorn",
+        "evo": [
+            "Rhydon",
+            "Rhyperior",
+            "Rhyhorn"
+        ]
+    },
+    {
+        "name": "rhydon",
+        "evo": [
+            "Rhydon",
+            "Rhyperior",
+            "Rhyhorn"
+        ]
+    },
+    {
+        "name": "chansey",
+        "evo": [
+            "Happiny",
+            "Chansey",
+            "Blissey"
+        ]
+    },
+    {
+        "name": "tangela",
+        "evo": [
+            "Tangrowth",
+            "Tangela"
+        ]
+    },
+    {
+        "name": "kangaskhan",
+        "evo": []
+    },
+    {
+        "name": "horsea",
+        "evo": [
+            "Horsea",
+            "Seadra",
+            "Kingdra"
+        ]
+    },
+    {
+        "name": "seadra",
+        "evo": [
+            "Horsea",
+            "Seadra",
+            "Kingdra"
+        ]
+    },
+    {
+        "name": "goldeen",
+        "evo": [
+            "Goldeen",
+            "Seaking"
+        ]
+    },
+    {
+        "name": "seaking",
+        "evo": [
+            "Goldeen",
+            "Seaking"
+        ]
+    },
+    {
+        "name": "staryu",
+        "evo": [
+            "Starmie",
+            "Staryu"
+        ]
+    },
+    {
+        "name": "starmie",
+        "evo": [
+            "Starmie",
+            "Staryu"
+        ]
+    },
+    {
+        "name": "mr-mime",
+        "evo": [
+            "Mr. Mime",
+            "Mime Jr.",
+            "Mr. Rime"
+        ]
+    },
+    {
+        "name": "scyther",
+        "evo": [
+            "Scizor",
+            "Kleavor",
+            "Scyther"
+        ]
+    },
+    {
+        "name": "jynx",
+        "evo": [
+            "Jynx",
+            "Smoochum"
+        ]
+    },
+    {
+        "name": "electabuzz",
+        "evo": [
+            "Electivire",
+            "Elekid",
+            "Electabuzz"
+        ]
+    },
+    {
+        "name": "magmar",
+        "evo": [
+            "Magby",
+            "Magmar",
+            "Magmortar"
+        ]
+    },
+    {
+        "name": "pinsir",
+        "evo": []
+    },
+    {
+        "name": "tauros",
+        "evo": []
+    },
+    {
+        "name": "magikarp",
+        "evo": [
+            "Magikarp",
+            "Gyarados"
+        ]
+    },
+    {
+        "name": "gyarados",
+        "evo": [
+            "Magikarp",
+            "Gyarados"
+        ]
+    },
+    {
+        "name": "lapras",
+        "evo": []
+    },
+    {
+        "name": "ditto",
+        "evo": []
+    },
+    {
+        "name": "eevee",
+        "evo": [
+            "Espeon",
+            "Sylveon",
+            "Flareon",
+            "Eevee",
+            "Glaceon",
+            "Leafeon",
+            "Jolteon",
+            "Umbreon",
+            "Vaporeon"
+        ]
+    },
+    {
+        "name": "vaporeon",
+        "evo": [
+            "Espeon",
+            "Sylveon",
+            "Flareon",
+            "Eevee",
+            "Glaceon",
+            "Leafeon",
+            "Jolteon",
+            "Umbreon",
+            "Vaporeon"
+        ]
+    },
+    {
+        "name": "jolteon",
+        "evo": [
+            "Espeon",
+            "Sylveon",
+            "Flareon",
+            "Eevee",
+            "Glaceon",
+            "Leafeon",
+            "Jolteon",
+            "Umbreon",
+            "Vaporeon"
+        ]
+    },
+    {
+        "name": "flareon",
+        "evo": [
+            "Espeon",
+            "Sylveon",
+            "Flareon",
+            "Eevee",
+            "Glaceon",
+            "Leafeon",
+            "Jolteon",
+            "Umbreon",
+            "Vaporeon"
+        ]
+    },
+    {
+        "name": "porygon",
+        "evo": [
+            "Porygon-Z",
+            "Porygon2",
+            "Porygon"
+        ]
+    },
+    {
+        "name": "omanyte",
+        "evo": [
+            "Omanyte",
+            "Omastar"
+        ]
+    },
+    {
+        "name": "omastar",
+        "evo": [
+            "Omanyte",
+            "Omastar"
+        ]
+    },
+    {
+        "name": "kabuto",
+        "evo": [
+            "Kabutops",
+            "Kabuto"
+        ]
+    },
+    {
+        "name": "kabutops",
+        "evo": [
+            "Kabutops",
+            "Kabuto"
+        ]
+    },
+    {
+        "name": "aerodactyl",
+        "evo": []
+    },
+    {
+        "name": "snorlax",
+        "evo": [
+            "Munchlax",
+            "Snorlax"
+        ]
+    },
+    {
+        "name": "articuno",
+        "evo": []
+    },
+    {
+        "name": "zapdos",
+        "evo": []
+    },
+    {
+        "name": "moltres",
+        "evo": []
+    },
+    {
+        "name": "dratini",
+        "evo": [
+            "Dratini",
+            "Dragonite",
+            "Dragonair"
+        ]
+    },
+    {
+        "name": "dragonair",
+        "evo": [
+            "Dratini",
+            "Dragonite",
+            "Dragonair"
+        ]
+    },
+    {
+        "name": "dragonite",
+        "evo": [
+            "Dratini",
+            "Dragonite",
+            "Dragonair"
+        ]
+    },
+    {
+        "name": "mewtwo",
+        "evo": []
+    },
+    {
+        "name": "mew",
+        "evo": []
+    },
+    {
+        "name": "chikorita",
+        "evo": [
+            "Meganium",
+            "Bayleef",
+            "Chikorita"
+        ]
+    },
+    {
+        "name": "bayleef",
+        "evo": [
+            "Meganium",
+            "Bayleef",
+            "Chikorita"
+        ]
+    },
+    {
+        "name": "meganium",
+        "evo": [
+            "Meganium",
+            "Bayleef",
+            "Chikorita"
+        ]
+    },
+    {
+        "name": "cyndaquil",
+        "evo": [
+            "Quilava",
+            "Typhlosion",
+            "Cyndaquil"
+        ]
+    },
+    {
+        "name": "quilava",
+        "evo": [
+            "Quilava",
+            "Typhlosion",
+            "Cyndaquil"
+        ]
+    },
+    {
+        "name": "typhlosion",
+        "evo": [
+            "Quilava",
+            "Typhlosion",
+            "Cyndaquil"
+        ]
+    },
+    {
+        "name": "totodile",
+        "evo": [
+            "Feraligatr",
+            "Croconaw",
+            "Totodile"
+        ]
+    },
+    {
+        "name": "croconaw",
+        "evo": [
+            "Feraligatr",
+            "Croconaw",
+            "Totodile"
+        ]
+    },
+    {
+        "name": "feraligatr",
+        "evo": [
+            "Feraligatr",
+            "Croconaw",
+            "Totodile"
+        ]
+    },
+    {
+        "name": "sentret",
+        "evo": [
+            "Furret",
+            "Sentret"
+        ]
+    },
+    {
+        "name": "furret",
+        "evo": [
+            "Furret",
+            "Sentret"
+        ]
+    },
+    {
+        "name": "hoothoot",
+        "evo": [
+            "Hoothoot",
+            "Noctowl"
+        ]
+    },
+    {
+        "name": "noctowl",
+        "evo": [
+            "Hoothoot",
+            "Noctowl"
+        ]
+    },
+    {
+        "name": "ledyba",
+        "evo": [
+            "Ledian",
+            "Ledyba"
+        ]
+    },
+    {
+        "name": "ledian",
+        "evo": [
+            "Ledian",
+            "Ledyba"
+        ]
+    },
+    {
+        "name": "spinarak",
+        "evo": [
+            "Spinarak",
+            "Ariados"
+        ]
+    },
+    {
+        "name": "ariados",
+        "evo": [
+            "Spinarak",
+            "Ariados"
+        ]
+    },
+    {
+        "name": "crobat",
+        "evo": [
+            "Zubat",
+            "Crobat",
+            "Golbat"
+        ]
+    },
+    {
+        "name": "chinchou",
+        "evo": [
+            "Chinchou",
+            "Lanturn"
+        ]
+    },
+    {
+        "name": "lanturn",
+        "evo": [
+            "Chinchou",
+            "Lanturn"
+        ]
+    },
+    {
+        "name": "pichu",
+        "evo": [
+            "Raichu",
+            "Pichu",
+            "Pikachu"
+        ]
+    },
+    {
+        "name": "cleffa",
+        "evo": [
+            "Cleffa",
+            "Clefairy",
+            "Clefable"
+        ]
+    },
+    {
+        "name": "igglybuff",
+        "evo": [
+            "Wigglytuff",
+            "Igglybuff",
+            "Jigglypuff"
+        ]
+    },
+    {
+        "name": "togepi",
+        "evo": [
+            "Togetic",
+            "Togepi",
+            "Togekiss"
+        ]
+    },
+    {
+        "name": "togetic",
+        "evo": [
+            "Togetic",
+            "Togepi",
+            "Togekiss"
+        ]
+    },
+    {
+        "name": "natu",
+        "evo": [
+            "Xatu",
+            "Natu"
+        ]
+    },
+    {
+        "name": "xatu",
+        "evo": [
+            "Xatu",
+            "Natu"
+        ]
+    },
+    {
+        "name": "mareep",
+        "evo": [
+            "Mareep",
+            "Ampharos",
+            "Flaaffy"
+        ]
+    },
+    {
+        "name": "flaaffy",
+        "evo": [
+            "Mareep",
+            "Ampharos",
+            "Flaaffy"
+        ]
+    },
+    {
+        "name": "ampharos",
+        "evo": [
+            "Mareep",
+            "Ampharos",
+            "Flaaffy"
+        ]
+    },
+    {
+        "name": "bellossom",
+        "evo": [
+            "Oddish",
+            "Bellossom",
+            "Vileplume",
+            "Gloom"
+        ]
+    },
+    {
+        "name": "marill",
+        "evo": [
+            "Azumarill",
+            "Azurill",
+            "Marill"
+        ]
+    },
+    {
+        "name": "azumarill",
+        "evo": [
+            "Azumarill",
+            "Azurill",
+            "Marill"
+        ]
+    },
+    {
+        "name": "sudowoodo",
+        "evo": [
+            "Bonsly",
+            "Sudowoodo"
+        ]
+    },
+    {
+        "name": "politoed",
+        "evo": [
+            "Poliwrath",
+            "Poliwag",
+            "Poliwhirl",
+            "Politoed"
+        ]
+    },
+    {
+        "name": "hoppip",
+        "evo": [
+            "Skiploom",
+            "Jumpluff",
+            "Hoppip"
+        ]
+    },
+    {
+        "name": "skiploom",
+        "evo": [
+            "Skiploom",
+            "Jumpluff",
+            "Hoppip"
+        ]
+    },
+    {
+        "name": "jumpluff",
+        "evo": [
+            "Skiploom",
+            "Jumpluff",
+            "Hoppip"
+        ]
+    },
+    {
+        "name": "aipom",
+        "evo": [
+            "Aipom",
+            "Ambipom"
+        ]
+    },
+    {
+        "name": "sunkern",
+        "evo": [
+            "Sunkern",
+            "Sunflora"
+        ]
+    },
+    {
+        "name": "sunflora",
+        "evo": [
+            "Sunkern",
+            "Sunflora"
+        ]
+    },
+    {
+        "name": "yanma",
+        "evo": [
+            "Yanmega",
+            "Yanma"
+        ]
+    },
+    {
+        "name": "wooper",
+        "evo": [
+            "Wooper",
+            "Clodsire",
+            "Quagsire"
+        ]
+    },
+    {
+        "name": "quagsire",
+        "evo": [
+            "Wooper",
+            "Clodsire",
+            "Quagsire"
+        ]
+    },
+    {
+        "name": "espeon",
+        "evo": [
+            "Espeon",
+            "Sylveon",
+            "Flareon",
+            "Eevee",
+            "Glaceon",
+            "Leafeon",
+            "Jolteon",
+            "Umbreon",
+            "Vaporeon"
+        ]
+    },
+    {
+        "name": "umbreon",
+        "evo": [
+            "Espeon",
+            "Sylveon",
+            "Flareon",
+            "Eevee",
+            "Glaceon",
+            "Leafeon",
+            "Jolteon",
+            "Umbreon",
+            "Vaporeon"
+        ]
+    },
+    {
+        "name": "murkrow",
+        "evo": [
+            "Murkrow",
+            "Honchkrow"
+        ]
+    },
+    {
+        "name": "slowking",
+        "evo": [
+            "Slowpoke",
+            "Slowbro",
+            "Slowking"
+        ]
+    },
+    {
+        "name": "misdreavus",
+        "evo": [
+            "Mismagius",
+            "Misdreavus"
+        ]
+    },
+    {
+        "name": "unown",
+        "evo": []
+    },
+    {
+        "name": "wobbuffet",
+        "evo": [
+            "Wobbuffet",
+            "Wynaut"
+        ]
+    },
+    {
+        "name": "girafarig",
+        "evo": [
+            "Girafarig",
+            "Farigiraf"
+        ]
+    },
+    {
+        "name": "pineco",
+        "evo": [
+            "Forretress",
+            "Pineco"
+        ]
+    },
+    {
+        "name": "forretress",
+        "evo": [
+            "Forretress",
+            "Pineco"
+        ]
+    },
+    {
+        "name": "dunsparce",
+        "evo": [
+            "Dunsparce",
+            "Dudunsparce"
+        ]
+    },
+    {
+        "name": "gligar",
+        "evo": [
+            "Gligar",
+            "Gliscor"
+        ]
+    },
+    {
+        "name": "steelix",
+        "evo": [
+            "Steelix",
+            "Onix"
+        ]
+    },
+    {
+        "name": "snubbull",
+        "evo": [
+            "Granbull",
+            "Snubbull"
+        ]
+    },
+    {
+        "name": "granbull",
+        "evo": [
+            "Granbull",
+            "Snubbull"
+        ]
+    },
+    {
+        "name": "qwilfish",
+        "evo": [
+            "Overqwil",
+            "Qwilfish"
+        ]
+    },
+    {
+        "name": "scizor",
+        "evo": [
+            "Scizor",
+            "Kleavor",
+            "Scyther"
+        ]
+    },
+    {
+        "name": "shuckle",
+        "evo": []
+    },
+    {
+        "name": "heracross",
+        "evo": []
+    },
+    {
+        "name": "sneasel",
+        "evo": [
+            "Sneasel",
+            "Weavile",
+            "Sneasler"
+        ]
+    },
+    {
+        "name": "teddiursa",
+        "evo": [
+            "Ursaluna",
+            "Teddiursa",
+            "Ursaring"
+        ]
+    },
+    {
+        "name": "ursaring",
+        "evo": [
+            "Ursaluna",
+            "Teddiursa",
+            "Ursaring"
+        ]
+    },
+    {
+        "name": "slugma",
+        "evo": [
+            "Slugma",
+            "Magcargo"
+        ]
+    },
+    {
+        "name": "magcargo",
+        "evo": [
+            "Slugma",
+            "Magcargo"
+        ]
+    },
+    {
+        "name": "swinub",
+        "evo": [
+            "Piloswine",
+            "Swinub",
+            "Mamoswine"
+        ]
+    },
+    {
+        "name": "piloswine",
+        "evo": [
+            "Piloswine",
+            "Swinub",
+            "Mamoswine"
+        ]
+    },
+    {
+        "name": "corsola",
+        "evo": [
+            "Cursola",
+            "Corsola"
+        ]
+    },
+    {
+        "name": "remoraid",
+        "evo": [
+            "Octillery",
+            "Remoraid"
+        ]
+    },
+    {
+        "name": "octillery",
+        "evo": [
+            "Octillery",
+            "Remoraid"
+        ]
+    },
+    {
+        "name": "delibird",
+        "evo": []
+    },
+    {
+        "name": "mantine",
+        "evo": [
+            "Mantine",
+            "Mantyke"
+        ]
+    },
+    {
+        "name": "skarmory",
+        "evo": []
+    },
+    {
+        "name": "houndour",
+        "evo": [
+            "Houndoom",
+            "Houndour"
+        ]
+    },
+    {
+        "name": "houndoom",
+        "evo": [
+            "Houndoom",
+            "Houndour"
+        ]
+    },
+    {
+        "name": "kingdra",
+        "evo": [
+            "Horsea",
+            "Seadra",
+            "Kingdra"
+        ]
+    },
+    {
+        "name": "phanpy",
+        "evo": [
+            "Phanpy",
+            "Donphan"
+        ]
+    },
+    {
+        "name": "donphan",
+        "evo": [
+            "Phanpy",
+            "Donphan"
+        ]
+    },
+    {
+        "name": "porygon2",
+        "evo": [
+            "Porygon-Z",
+            "Porygon2",
+            "Porygon"
+        ]
+    },
+    {
+        "name": "stantler",
+        "evo": [
+            "Wyrdeer",
+            "Stantler"
+        ]
+    },
+    {
+        "name": "smeargle",
+        "evo": []
+    },
+    {
+        "name": "tyrogue",
+        "evo": [
+            "Hitmonchan",
+            "Hitmonlee",
+            "Hitmontop",
+            "Tyrogue"
+        ]
+    },
+    {
+        "name": "hitmontop",
+        "evo": [
+            "Hitmonchan",
+            "Hitmonlee",
+            "Hitmontop",
+            "Tyrogue"
+        ]
+    },
+    {
+        "name": "smoochum",
+        "evo": [
+            "Jynx",
+            "Smoochum"
+        ]
+    },
+    {
+        "name": "elekid",
+        "evo": [
+            "Electivire",
+            "Elekid",
+            "Electabuzz"
+        ]
+    },
+    {
+        "name": "magby",
+        "evo": [
+            "Magby",
+            "Magmar",
+            "Magmortar"
+        ]
+    },
+    {
+        "name": "miltank",
+        "evo": []
+    },
+    {
+        "name": "blissey",
+        "evo": [
+            "Happiny",
+            "Chansey",
+            "Blissey"
+        ]
+    },
+    {
+        "name": "raikou",
+        "evo": []
+    },
+    {
+        "name": "entei",
+        "evo": []
+    },
+    {
+        "name": "suicune",
+        "evo": []
+    },
+    {
+        "name": "larvitar",
+        "evo": [
+            "Larvitar",
+            "Pupitar",
+            "Tyranitar"
+        ]
+    },
+    {
+        "name": "pupitar",
+        "evo": [
+            "Larvitar",
+            "Pupitar",
+            "Tyranitar"
+        ]
+    },
+    {
+        "name": "tyranitar",
+        "evo": [
+            "Larvitar",
+            "Pupitar",
+            "Tyranitar"
+        ]
+    },
+    {
+        "name": "lugia",
+        "evo": []
+    },
+    {
+        "name": "ho-oh",
+        "evo": []
+    },
+    {
+        "name": "celebi",
+        "evo": []
+    },
+    {
+        "name": "treecko",
+        "evo": [
+            "Sceptile",
+            "Grovyle",
+            "Treecko"
+        ]
+    },
+    {
+        "name": "grovyle",
+        "evo": [
+            "Sceptile",
+            "Grovyle",
+            "Treecko"
+        ]
+    },
+    {
+        "name": "sceptile",
+        "evo": [
+            "Sceptile",
+            "Grovyle",
+            "Treecko"
+        ]
+    },
+    {
+        "name": "torchic",
+        "evo": [
+            "Combusken",
+            "Blaziken",
+            "Torchic"
+        ]
+    },
+    {
+        "name": "combusken",
+        "evo": [
+            "Combusken",
+            "Blaziken",
+            "Torchic"
+        ]
+    },
+    {
+        "name": "blaziken",
+        "evo": [
+            "Combusken",
+            "Blaziken",
+            "Torchic"
+        ]
+    },
+    {
+        "name": "mudkip",
+        "evo": [
+            "Swampert",
+            "Marshtomp",
+            "Mudkip"
+        ]
+    },
+    {
+        "name": "marshtomp",
+        "evo": [
+            "Swampert",
+            "Marshtomp",
+            "Mudkip"
+        ]
+    },
+    {
+        "name": "swampert",
+        "evo": [
+            "Swampert",
+            "Marshtomp",
+            "Mudkip"
+        ]
+    },
+    {
+        "name": "poochyena",
+        "evo": [
+            "Mightyena",
+            "Poochyena"
+        ]
+    },
+    {
+        "name": "mightyena",
+        "evo": [
+            "Mightyena",
+            "Poochyena"
+        ]
+    },
+    {
+        "name": "zigzagoon",
+        "evo": [
+            "Linoone",
+            "Zigzagoon",
+            "Obstagoon"
+        ]
+    },
+    {
+        "name": "linoone",
+        "evo": [
+            "Linoone",
+            "Zigzagoon",
+            "Obstagoon"
+        ]
+    },
+    {
+        "name": "wurmple",
+        "evo": [
+            "Cascoon",
+            "Dustox",
+            "Wurmple",
+            "Beautifly",
+            "Silcoon"
+        ]
+    },
+    {
+        "name": "silcoon",
+        "evo": [
+            "Cascoon",
+            "Dustox",
+            "Wurmple",
+            "Beautifly",
+            "Silcoon"
+        ]
+    },
+    {
+        "name": "beautifly",
+        "evo": [
+            "Cascoon",
+            "Dustox",
+            "Wurmple",
+            "Beautifly",
+            "Silcoon"
+        ]
+    },
+    {
+        "name": "cascoon",
+        "evo": [
+            "Cascoon",
+            "Dustox",
+            "Wurmple",
+            "Beautifly",
+            "Silcoon"
+        ]
+    },
+    {
+        "name": "dustox",
+        "evo": [
+            "Cascoon",
+            "Dustox",
+            "Wurmple",
+            "Beautifly",
+            "Silcoon"
+        ]
+    },
+    {
+        "name": "lotad",
+        "evo": [
+            "Lotad",
+            "Ludicolo",
+            "Lombre"
+        ]
+    },
+    {
+        "name": "lombre",
+        "evo": [
+            "Lotad",
+            "Ludicolo",
+            "Lombre"
+        ]
+    },
+    {
+        "name": "ludicolo",
+        "evo": [
+            "Lotad",
+            "Ludicolo",
+            "Lombre"
+        ]
+    },
+    {
+        "name": "seedot",
+        "evo": [
+            "Shiftry",
+            "Seedot",
+            "Nuzleaf"
+        ]
+    },
+    {
+        "name": "nuzleaf",
+        "evo": [
+            "Shiftry",
+            "Seedot",
+            "Nuzleaf"
+        ]
+    },
+    {
+        "name": "shiftry",
+        "evo": [
+            "Shiftry",
+            "Seedot",
+            "Nuzleaf"
+        ]
+    },
+    {
+        "name": "taillow",
+        "evo": [
+            "Taillow",
+            "Swellow"
+        ]
+    },
+    {
+        "name": "swellow",
+        "evo": [
+            "Taillow",
+            "Swellow"
+        ]
+    },
+    {
+        "name": "wingull",
+        "evo": [
+            "Wingull",
+            "Pelipper"
+        ]
+    },
+    {
+        "name": "pelipper",
+        "evo": [
+            "Wingull",
+            "Pelipper"
+        ]
+    },
+    {
+        "name": "ralts",
+        "evo": [
+            "Gallade",
+            "Ralts",
+            "Kirlia",
+            "Gardevoir"
+        ]
+    },
+    {
+        "name": "kirlia",
+        "evo": [
+            "Gallade",
+            "Ralts",
+            "Kirlia",
+            "Gardevoir"
+        ]
+    },
+    {
+        "name": "gardevoir",
+        "evo": [
+            "Gallade",
+            "Ralts",
+            "Kirlia",
+            "Gardevoir"
+        ]
+    },
+    {
+        "name": "surskit",
+        "evo": [
+            "Surskit",
+            "Masquerain"
+        ]
+    },
+    {
+        "name": "masquerain",
+        "evo": [
+            "Surskit",
+            "Masquerain"
+        ]
+    },
+    {
+        "name": "shroomish",
+        "evo": [
+            "Shroomish",
+            "Breloom"
+        ]
+    },
+    {
+        "name": "breloom",
+        "evo": [
+            "Shroomish",
+            "Breloom"
+        ]
+    },
+    {
+        "name": "slakoth",
+        "evo": [
+            "Slakoth",
+            "Slaking",
+            "Vigoroth"
+        ]
+    },
+    {
+        "name": "vigoroth",
+        "evo": [
+            "Slakoth",
+            "Slaking",
+            "Vigoroth"
+        ]
+    },
+    {
+        "name": "slaking",
+        "evo": [
+            "Slakoth",
+            "Slaking",
+            "Vigoroth"
+        ]
+    },
+    {
+        "name": "nincada",
+        "evo": [
+            "Shedinja",
+            "Ninjask",
+            "Nincada"
+        ]
+    },
+    {
+        "name": "ninjask",
+        "evo": [
+            "Shedinja",
+            "Ninjask",
+            "Nincada"
+        ]
+    },
+    {
+        "name": "shedinja",
+        "evo": [
+            "Shedinja",
+            "Ninjask",
+            "Nincada"
+        ]
+    },
+    {
+        "name": "whismur",
+        "evo": [
+            "Whismur",
+            "Loudred",
+            "Exploud"
+        ]
+    },
+    {
+        "name": "loudred",
+        "evo": [
+            "Whismur",
+            "Loudred",
+            "Exploud"
+        ]
+    },
+    {
+        "name": "exploud",
+        "evo": [
+            "Whismur",
+            "Loudred",
+            "Exploud"
+        ]
+    },
+    {
+        "name": "makuhita",
+        "evo": [
+            "Makuhita",
+            "Hariyama"
+        ]
+    },
+    {
+        "name": "hariyama",
+        "evo": [
+            "Makuhita",
+            "Hariyama"
+        ]
+    },
+    {
+        "name": "azurill",
+        "evo": [
+            "Azumarill",
+            "Azurill",
+            "Marill"
+        ]
+    },
+    {
+        "name": "nosepass",
+        "evo": [
+            "Nosepass",
+            "Probopass"
+        ]
+    },
+    {
+        "name": "skitty",
+        "evo": [
+            "Skitty",
+            "Delcatty"
+        ]
+    },
+    {
+        "name": "delcatty",
+        "evo": [
+            "Skitty",
+            "Delcatty"
+        ]
+    },
+    {
+        "name": "sableye",
+        "evo": []
+    },
+    {
+        "name": "mawile",
+        "evo": []
+    },
+    {
+        "name": "aron",
+        "evo": [
+            "Lairon",
+            "Aron",
+            "Aggron"
+        ]
+    },
+    {
+        "name": "lairon",
+        "evo": [
+            "Lairon",
+            "Aron",
+            "Aggron"
+        ]
+    },
+    {
+        "name": "aggron",
+        "evo": [
+            "Lairon",
+            "Aron",
+            "Aggron"
+        ]
+    },
+    {
+        "name": "meditite",
+        "evo": [
+            "Medicham",
+            "Meditite"
+        ]
+    },
+    {
+        "name": "medicham",
+        "evo": [
+            "Medicham",
+            "Meditite"
+        ]
+    },
+    {
+        "name": "electrike",
+        "evo": [
+            "Manectric",
+            "Electrike"
+        ]
+    },
+    {
+        "name": "manectric",
+        "evo": [
+            "Manectric",
+            "Electrike"
+        ]
+    },
+    {
+        "name": "plusle",
+        "evo": []
+    },
+    {
+        "name": "minun",
+        "evo": []
+    },
+    {
+        "name": "volbeat",
+        "evo": []
+    },
+    {
+        "name": "illumise",
+        "evo": []
+    },
+    {
+        "name": "roselia",
+        "evo": [
+            "Roselia",
+            "Roserade",
+            "Budew"
+        ]
+    },
+    {
+        "name": "gulpin",
+        "evo": [
+            "Swalot",
+            "Gulpin"
+        ]
+    },
+    {
+        "name": "swalot",
+        "evo": [
+            "Swalot",
+            "Gulpin"
+        ]
+    },
+    {
+        "name": "carvanha",
+        "evo": [
+            "Sharpedo",
+            "Carvanha"
+        ]
+    },
+    {
+        "name": "sharpedo",
+        "evo": [
+            "Sharpedo",
+            "Carvanha"
+        ]
+    },
+    {
+        "name": "wailmer",
+        "evo": [
+            "Wailord",
+            "Wailmer"
+        ]
+    },
+    {
+        "name": "wailord",
+        "evo": [
+            "Wailord",
+            "Wailmer"
+        ]
+    },
+    {
+        "name": "numel",
+        "evo": [
+            "Numel",
+            "Camerupt"
+        ]
+    },
+    {
+        "name": "camerupt",
+        "evo": [
+            "Numel",
+            "Camerupt"
+        ]
+    },
+    {
+        "name": "torkoal",
+        "evo": []
+    },
+    {
+        "name": "spoink",
+        "evo": [
+            "Grumpig",
+            "Spoink"
+        ]
+    },
+    {
+        "name": "grumpig",
+        "evo": [
+            "Grumpig",
+            "Spoink"
+        ]
+    },
+    {
+        "name": "spinda",
+        "evo": []
+    },
+    {
+        "name": "trapinch",
+        "evo": [
+            "Vibrava",
+            "Trapinch",
+            "Flygon"
+        ]
+    },
+    {
+        "name": "vibrava",
+        "evo": [
+            "Vibrava",
+            "Trapinch",
+            "Flygon"
+        ]
+    },
+    {
+        "name": "flygon",
+        "evo": [
+            "Vibrava",
+            "Trapinch",
+            "Flygon"
+        ]
+    },
+    {
+        "name": "cacnea",
+        "evo": [
+            "Cacnea",
+            "Cacturne"
+        ]
+    },
+    {
+        "name": "cacturne",
+        "evo": [
+            "Cacnea",
+            "Cacturne"
+        ]
+    },
+    {
+        "name": "swablu",
+        "evo": [
+            "Altaria",
+            "Swablu"
+        ]
+    },
+    {
+        "name": "altaria",
+        "evo": [
+            "Altaria",
+            "Swablu"
+        ]
+    },
+    {
+        "name": "zangoose",
+        "evo": []
+    },
+    {
+        "name": "seviper",
+        "evo": []
+    },
+    {
+        "name": "lunatone",
+        "evo": []
+    },
+    {
+        "name": "solrock",
+        "evo": []
+    },
+    {
+        "name": "barboach",
+        "evo": [
+            "Barboach",
+            "Whiscash"
+        ]
+    },
+    {
+        "name": "whiscash",
+        "evo": [
+            "Barboach",
+            "Whiscash"
+        ]
+    },
+    {
+        "name": "corphish",
+        "evo": [
+            "Corphish",
+            "Crawdaunt"
+        ]
+    },
+    {
+        "name": "crawdaunt",
+        "evo": [
+            "Corphish",
+            "Crawdaunt"
+        ]
+    },
+    {
+        "name": "baltoy",
+        "evo": [
+            "Baltoy",
+            "Claydol"
+        ]
+    },
+    {
+        "name": "claydol",
+        "evo": [
+            "Baltoy",
+            "Claydol"
+        ]
+    },
+    {
+        "name": "lileep",
+        "evo": [
+            "Lileep",
+            "Cradily"
+        ]
+    },
+    {
+        "name": "cradily",
+        "evo": [
+            "Lileep",
+            "Cradily"
+        ]
+    },
+    {
+        "name": "anorith",
+        "evo": [
+            "Armaldo",
+            "Anorith"
+        ]
+    },
+    {
+        "name": "armaldo",
+        "evo": [
+            "Armaldo",
+            "Anorith"
+        ]
+    },
+    {
+        "name": "feebas",
+        "evo": [
+            "Feebas",
+            "Milotic"
+        ]
+    },
+    {
+        "name": "milotic",
+        "evo": [
+            "Feebas",
+            "Milotic"
+        ]
+    },
+    {
+        "name": "castform",
+        "evo": []
+    },
+    {
+        "name": "kecleon",
+        "evo": []
+    },
+    {
+        "name": "shuppet",
+        "evo": [
+            "Shuppet",
+            "Banette"
+        ]
+    },
+    {
+        "name": "banette",
+        "evo": [
+            "Shuppet",
+            "Banette"
+        ]
+    },
+    {
+        "name": "duskull",
+        "evo": [
+            "Dusknoir",
+            "Dusclops",
+            "Duskull"
+        ]
+    },
+    {
+        "name": "dusclops",
+        "evo": [
+            "Dusknoir",
+            "Dusclops",
+            "Duskull"
+        ]
+    },
+    {
+        "name": "tropius",
+        "evo": []
+    },
+    {
+        "name": "chimecho",
+        "evo": [
+            "Chimecho",
+            "Chingling"
+        ]
+    },
+    {
+        "name": "absol",
+        "evo": []
+    },
+    {
+        "name": "wynaut",
+        "evo": [
+            "Wobbuffet",
+            "Wynaut"
+        ]
+    },
+    {
+        "name": "snorunt",
+        "evo": [
+            "Froslass",
+            "Snorunt",
+            "Glalie"
+        ]
+    },
+    {
+        "name": "glalie",
+        "evo": [
+            "Froslass",
+            "Snorunt",
+            "Glalie"
+        ]
+    },
+    {
+        "name": "spheal",
+        "evo": [
+            "Spheal",
+            "Sealeo",
+            "Walrein"
+        ]
+    },
+    {
+        "name": "sealeo",
+        "evo": [
+            "Spheal",
+            "Sealeo",
+            "Walrein"
+        ]
+    },
+    {
+        "name": "walrein",
+        "evo": [
+            "Spheal",
+            "Sealeo",
+            "Walrein"
+        ]
+    },
+    {
+        "name": "clamperl",
+        "evo": [
+            "Gorebyss",
+            "Huntail",
+            "Clamperl"
+        ]
+    },
+    {
+        "name": "huntail",
+        "evo": [
+            "Gorebyss",
+            "Huntail",
+            "Clamperl"
+        ]
+    },
+    {
+        "name": "gorebyss",
+        "evo": [
+            "Gorebyss",
+            "Huntail",
+            "Clamperl"
+        ]
+    },
+    {
+        "name": "relicanth",
+        "evo": []
+    },
+    {
+        "name": "luvdisc",
+        "evo": []
+    },
+    {
+        "name": "bagon",
+        "evo": [
+            "Shelgon",
+            "Salamence",
+            "Bagon"
+        ]
+    },
+    {
+        "name": "shelgon",
+        "evo": [
+            "Shelgon",
+            "Salamence",
+            "Bagon"
+        ]
+    },
+    {
+        "name": "salamence",
+        "evo": [
+            "Shelgon",
+            "Salamence",
+            "Bagon"
+        ]
+    },
+    {
+        "name": "beldum",
+        "evo": [
+            "Beldum",
+            "Metang",
+            "Metagross"
+        ]
+    },
+    {
+        "name": "metang",
+        "evo": [
+            "Beldum",
+            "Metang",
+            "Metagross"
+        ]
+    },
+    {
+        "name": "metagross",
+        "evo": [
+            "Beldum",
+            "Metang",
+            "Metagross"
+        ]
+    },
+    {
+        "name": "regirock",
+        "evo": []
+    },
+    {
+        "name": "regice",
+        "evo": []
+    },
+    {
+        "name": "registeel",
+        "evo": []
+    },
+    {
+        "name": "latias",
+        "evo": []
+    },
+    {
+        "name": "latios",
+        "evo": []
+    },
+    {
+        "name": "kyogre",
+        "evo": []
+    },
+    {
+        "name": "groudon",
+        "evo": []
+    },
+    {
+        "name": "rayquaza",
+        "evo": []
+    },
+    {
+        "name": "jirachi",
+        "evo": []
+    },
+    {
+        "name": "deoxys-normal",
+        "evo": []
+    },
+    {
+        "name": "turtwig",
+        "evo": [
+            "Torterra",
+            "Grotle",
+            "Turtwig"
+        ]
+    },
+    {
+        "name": "grotle",
+        "evo": [
+            "Torterra",
+            "Grotle",
+            "Turtwig"
+        ]
+    },
+    {
+        "name": "torterra",
+        "evo": [
+            "Torterra",
+            "Grotle",
+            "Turtwig"
+        ]
+    },
+    {
+        "name": "chimchar",
+        "evo": [
+            "Chimchar",
+            "Monferno",
+            "Infernape"
+        ]
+    },
+    {
+        "name": "monferno",
+        "evo": [
+            "Chimchar",
+            "Monferno",
+            "Infernape"
+        ]
+    },
+    {
+        "name": "infernape",
+        "evo": [
+            "Chimchar",
+            "Monferno",
+            "Infernape"
+        ]
+    },
+    {
+        "name": "piplup",
+        "evo": [
+            "Empoleon",
+            "Piplup",
+            "Prinplup"
+        ]
+    },
+    {
+        "name": "prinplup",
+        "evo": [
+            "Empoleon",
+            "Piplup",
+            "Prinplup"
+        ]
+    },
+    {
+        "name": "empoleon",
+        "evo": [
+            "Empoleon",
+            "Piplup",
+            "Prinplup"
+        ]
+    },
+    {
+        "name": "starly",
+        "evo": [
+            "Starly",
+            "Staravia",
+            "Staraptor"
+        ]
+    },
+    {
+        "name": "staravia",
+        "evo": [
+            "Starly",
+            "Staravia",
+            "Staraptor"
+        ]
+    },
+    {
+        "name": "staraptor",
+        "evo": [
+            "Starly",
+            "Staravia",
+            "Staraptor"
+        ]
+    },
+    {
+        "name": "bidoof",
+        "evo": [
+            "Bibarel",
+            "Bidoof"
+        ]
+    },
+    {
+        "name": "bibarel",
+        "evo": [
+            "Bibarel",
+            "Bidoof"
+        ]
+    },
+    {
+        "name": "kricketot",
+        "evo": [
+            "Kricketot",
+            "Kricketune"
+        ]
+    },
+    {
+        "name": "kricketune",
+        "evo": [
+            "Kricketot",
+            "Kricketune"
+        ]
+    },
+    {
+        "name": "shinx",
+        "evo": [
+            "Shinx",
+            "Luxray",
+            "Luxio"
+        ]
+    },
+    {
+        "name": "luxio",
+        "evo": [
+            "Shinx",
+            "Luxray",
+            "Luxio"
+        ]
+    },
+    {
+        "name": "luxray",
+        "evo": [
+            "Shinx",
+            "Luxray",
+            "Luxio"
+        ]
+    },
+    {
+        "name": "budew",
+        "evo": [
+            "Roselia",
+            "Roserade",
+            "Budew"
+        ]
+    },
+    {
+        "name": "roserade",
+        "evo": [
+            "Roselia",
+            "Roserade",
+            "Budew"
+        ]
+    },
+    {
+        "name": "cranidos",
+        "evo": [
+            "Cranidos",
+            "Rampardos"
+        ]
+    },
+    {
+        "name": "rampardos",
+        "evo": [
+            "Cranidos",
+            "Rampardos"
+        ]
+    },
+    {
+        "name": "shieldon",
+        "evo": [
+            "Shieldon",
+            "Bastiodon"
+        ]
+    },
+    {
+        "name": "bastiodon",
+        "evo": [
+            "Shieldon",
+            "Bastiodon"
+        ]
+    },
+    {
+        "name": "burmy",
+        "evo": [
+            "Mothim",
+            "Burmy",
+            "Wormadam"
+        ]
+    },
+    {
+        "name": "wormadam-plant",
+        "evo": []
+    },
+    {
+        "name": "mothim",
+        "evo": [
+            "Mothim",
+            "Burmy",
+            "Wormadam"
+        ]
+    },
+    {
+        "name": "combee",
+        "evo": [
+            "Combee",
+            "Vespiquen"
+        ]
+    },
+    {
+        "name": "vespiquen",
+        "evo": [
+            "Combee",
+            "Vespiquen"
+        ]
+    },
+    {
+        "name": "pachirisu",
+        "evo": []
+    },
+    {
+        "name": "buizel",
+        "evo": [
+            "Floatzel",
+            "Buizel"
+        ]
+    },
+    {
+        "name": "floatzel",
+        "evo": [
+            "Floatzel",
+            "Buizel"
+        ]
+    },
+    {
+        "name": "cherubi",
+        "evo": [
+            "Cherubi",
+            "Cherrim"
+        ]
+    },
+    {
+        "name": "cherrim",
+        "evo": [
+            "Cherubi",
+            "Cherrim"
+        ]
+    },
+    {
+        "name": "shellos",
+        "evo": [
+            "Shellos",
+            "Gastrodon"
+        ]
+    },
+    {
+        "name": "gastrodon",
+        "evo": [
+            "Shellos",
+            "Gastrodon"
+        ]
+    },
+    {
+        "name": "ambipom",
+        "evo": [
+            "Aipom",
+            "Ambipom"
+        ]
+    },
+    {
+        "name": "drifloon",
+        "evo": [
+            "Drifloon",
+            "Drifblim"
+        ]
+    },
+    {
+        "name": "drifblim",
+        "evo": [
+            "Drifloon",
+            "Drifblim"
+        ]
+    },
+    {
+        "name": "buneary",
+        "evo": [
+            "Buneary",
+            "Lopunny"
+        ]
+    },
+    {
+        "name": "lopunny",
+        "evo": [
+            "Buneary",
+            "Lopunny"
+        ]
+    },
+    {
+        "name": "mismagius",
+        "evo": [
+            "Mismagius",
+            "Misdreavus"
+        ]
+    },
+    {
+        "name": "honchkrow",
+        "evo": [
+            "Murkrow",
+            "Honchkrow"
+        ]
+    },
+    {
+        "name": "glameow",
+        "evo": [
+            "Glameow",
+            "Purugly"
+        ]
+    },
+    {
+        "name": "purugly",
+        "evo": [
+            "Glameow",
+            "Purugly"
+        ]
+    },
+    {
+        "name": "chingling",
+        "evo": [
+            "Chimecho",
+            "Chingling"
+        ]
+    },
+    {
+        "name": "stunky",
+        "evo": [
+            "Skuntank",
+            "Stunky"
+        ]
+    },
+    {
+        "name": "skuntank",
+        "evo": [
+            "Skuntank",
+            "Stunky"
+        ]
+    },
+    {
+        "name": "bronzor",
+        "evo": [
+            "Bronzong",
+            "Bronzor"
+        ]
+    },
+    {
+        "name": "bronzong",
+        "evo": [
+            "Bronzong",
+            "Bronzor"
+        ]
+    },
+    {
+        "name": "bonsly",
+        "evo": [
+            "Bonsly",
+            "Sudowoodo"
+        ]
+    },
+    {
+        "name": "mime-jr",
+        "evo": [
+            "Mr. Mime",
+            "Mime Jr.",
+            "Mr. Rime"
+        ]
+    },
+    {
+        "name": "happiny",
+        "evo": [
+            "Happiny",
+            "Chansey",
+            "Blissey"
+        ]
+    },
+    {
+        "name": "chatot",
+        "evo": []
+    },
+    {
+        "name": "spiritomb",
+        "evo": []
+    },
+    {
+        "name": "gible",
+        "evo": [
+            "Garchomp",
+            "Gible",
+            "Gabite"
+        ]
+    },
+    {
+        "name": "gabite",
+        "evo": [
+            "Garchomp",
+            "Gible",
+            "Gabite"
+        ]
+    },
+    {
+        "name": "garchomp",
+        "evo": [
+            "Garchomp",
+            "Gible",
+            "Gabite"
+        ]
+    },
+    {
+        "name": "munchlax",
+        "evo": [
+            "Munchlax",
+            "Snorlax"
+        ]
+    },
+    {
+        "name": "riolu",
+        "evo": [
+            "Riolu",
+            "Lucario"
+        ]
+    },
+    {
+        "name": "lucario",
+        "evo": [
+            "Riolu",
+            "Lucario"
+        ]
+    },
+    {
+        "name": "hippopotas",
+        "evo": [
+            "Hippowdon",
+            "Hippopotas"
+        ]
+    },
+    {
+        "name": "hippowdon",
+        "evo": [
+            "Hippowdon",
+            "Hippopotas"
+        ]
+    },
+    {
+        "name": "skorupi",
+        "evo": [
+            "Skorupi",
+            "Drapion"
+        ]
+    },
+    {
+        "name": "drapion",
+        "evo": [
+            "Skorupi",
+            "Drapion"
+        ]
+    },
+    {
+        "name": "croagunk",
+        "evo": [
+            "Croagunk",
+            "Toxicroak"
+        ]
+    },
+    {
+        "name": "toxicroak",
+        "evo": [
+            "Croagunk",
+            "Toxicroak"
+        ]
+    },
+    {
+        "name": "carnivine",
+        "evo": []
+    },
+    {
+        "name": "finneon",
+        "evo": [
+            "Lumineon",
+            "Finneon"
+        ]
+    },
+    {
+        "name": "lumineon",
+        "evo": [
+            "Lumineon",
+            "Finneon"
+        ]
+    },
+    {
+        "name": "mantyke",
+        "evo": [
+            "Mantine",
+            "Mantyke"
+        ]
+    },
+    {
+        "name": "snover",
+        "evo": [
+            "Snover",
+            "Abomasnow"
+        ]
+    },
+    {
+        "name": "abomasnow",
+        "evo": [
+            "Snover",
+            "Abomasnow"
+        ]
+    },
+    {
+        "name": "weavile",
+        "evo": [
+            "Sneasel",
+            "Weavile",
+            "Sneasler"
+        ]
+    },
+    {
+        "name": "magnezone",
+        "evo": [
+            "Magnemite",
+            "Magneton",
+            "Magnezone"
+        ]
+    },
+    {
+        "name": "lickilicky",
+        "evo": [
+            "Lickilicky",
+            "Lickitung"
+        ]
+    },
+    {
+        "name": "rhyperior",
+        "evo": [
+            "Rhydon",
+            "Rhyperior",
+            "Rhyhorn"
+        ]
+    },
+    {
+        "name": "tangrowth",
+        "evo": [
+            "Tangrowth",
+            "Tangela"
+        ]
+    },
+    {
+        "name": "electivire",
+        "evo": [
+            "Electivire",
+            "Elekid",
+            "Electabuzz"
+        ]
+    },
+    {
+        "name": "magmortar",
+        "evo": [
+            "Magby",
+            "Magmar",
+            "Magmortar"
+        ]
+    },
+    {
+        "name": "togekiss",
+        "evo": [
+            "Togetic",
+            "Togepi",
+            "Togekiss"
+        ]
+    },
+    {
+        "name": "yanmega",
+        "evo": [
+            "Yanmega",
+            "Yanma"
+        ]
+    },
+    {
+        "name": "leafeon",
+        "evo": [
+            "Espeon",
+            "Sylveon",
+            "Flareon",
+            "Eevee",
+            "Glaceon",
+            "Leafeon",
+            "Jolteon",
+            "Umbreon",
+            "Vaporeon"
+        ]
+    },
+    {
+        "name": "glaceon",
+        "evo": [
+            "Espeon",
+            "Sylveon",
+            "Flareon",
+            "Eevee",
+            "Glaceon",
+            "Leafeon",
+            "Jolteon",
+            "Umbreon",
+            "Vaporeon"
+        ]
+    },
+    {
+        "name": "gliscor",
+        "evo": [
+            "Gligar",
+            "Gliscor"
+        ]
+    },
+    {
+        "name": "mamoswine",
+        "evo": [
+            "Piloswine",
+            "Swinub",
+            "Mamoswine"
+        ]
+    },
+    {
+        "name": "porygon-z",
+        "evo": [
+            "Porygon-Z",
+            "Porygon2",
+            "Porygon"
+        ]
+    },
+    {
+        "name": "gallade",
+        "evo": [
+            "Gallade",
+            "Ralts",
+            "Kirlia",
+            "Gardevoir"
+        ]
+    },
+    {
+        "name": "probopass",
+        "evo": [
+            "Nosepass",
+            "Probopass"
+        ]
+    },
+    {
+        "name": "dusknoir",
+        "evo": [
+            "Dusknoir",
+            "Dusclops",
+            "Duskull"
+        ]
+    },
+    {
+        "name": "froslass",
+        "evo": [
+            "Froslass",
+            "Snorunt",
+            "Glalie"
+        ]
+    },
+    {
+        "name": "rotom",
+        "evo": []
+    },
+    {
+        "name": "uxie",
+        "evo": []
+    },
+    {
+        "name": "mesprit",
+        "evo": []
+    },
+    {
+        "name": "azelf",
+        "evo": []
+    },
+    {
+        "name": "dialga",
+        "evo": []
+    },
+    {
+        "name": "palkia",
+        "evo": []
+    },
+    {
+        "name": "heatran",
+        "evo": []
+    },
+    {
+        "name": "regigigas",
+        "evo": []
+    },
+    {
+        "name": "giratina-altered",
+        "evo": []
+    },
+    {
+        "name": "cresselia",
+        "evo": []
+    },
+    {
+        "name": "phione",
+        "evo": []
+    },
+    {
+        "name": "manaphy",
+        "evo": []
+    },
+    {
+        "name": "darkrai",
+        "evo": []
+    },
+    {
+        "name": "shaymin-land",
+        "evo": []
+    },
+    {
+        "name": "arceus",
+        "evo": []
+    },
+    {
+        "name": "victini",
+        "evo": []
+    },
+    {
+        "name": "snivy",
+        "evo": [
+            "Servine",
+            "Snivy",
+            "Serperior"
+        ]
+    },
+    {
+        "name": "servine",
+        "evo": [
+            "Servine",
+            "Snivy",
+            "Serperior"
+        ]
+    },
+    {
+        "name": "serperior",
+        "evo": [
+            "Servine",
+            "Snivy",
+            "Serperior"
+        ]
+    },
+    {
+        "name": "tepig",
+        "evo": [
+            "Tepig",
+            "Emboar",
+            "Pignite"
+        ]
+    },
+    {
+        "name": "pignite",
+        "evo": [
+            "Tepig",
+            "Emboar",
+            "Pignite"
+        ]
+    },
+    {
+        "name": "emboar",
+        "evo": [
+            "Tepig",
+            "Emboar",
+            "Pignite"
+        ]
+    },
+    {
+        "name": "oshawott",
+        "evo": [
+            "Samurott",
+            "Dewott",
+            "Oshawott"
+        ]
+    },
+    {
+        "name": "dewott",
+        "evo": [
+            "Samurott",
+            "Dewott",
+            "Oshawott"
+        ]
+    },
+    {
+        "name": "samurott",
+        "evo": [
+            "Samurott",
+            "Dewott",
+            "Oshawott"
+        ]
+    },
+    {
+        "name": "patrat",
+        "evo": [
+            "Patrat",
+            "Watchog"
+        ]
+    },
+    {
+        "name": "watchog",
+        "evo": [
+            "Patrat",
+            "Watchog"
+        ]
+    },
+    {
+        "name": "lillipup",
+        "evo": [
+            "Stoutland",
+            "Lillipup",
+            "Herdier"
+        ]
+    },
+    {
+        "name": "herdier",
+        "evo": [
+            "Stoutland",
+            "Lillipup",
+            "Herdier"
+        ]
+    },
+    {
+        "name": "stoutland",
+        "evo": [
+            "Stoutland",
+            "Lillipup",
+            "Herdier"
+        ]
+    },
+    {
+        "name": "purrloin",
+        "evo": [
+            "Liepard",
+            "Purrloin"
+        ]
+    },
+    {
+        "name": "liepard",
+        "evo": [
+            "Liepard",
+            "Purrloin"
+        ]
+    },
+    {
+        "name": "pansage",
+        "evo": [
+            "Simisage",
+            "Pansage"
+        ]
+    },
+    {
+        "name": "simisage",
+        "evo": [
+            "Simisage",
+            "Pansage"
+        ]
+    },
+    {
+        "name": "pansear",
+        "evo": [
+            "Simisear",
+            "Pansear"
+        ]
+    },
+    {
+        "name": "simisear",
+        "evo": [
+            "Simisear",
+            "Pansear"
+        ]
+    },
+    {
+        "name": "panpour",
+        "evo": [
+            "Panpour",
+            "Simipour"
+        ]
+    },
+    {
+        "name": "simipour",
+        "evo": [
+            "Panpour",
+            "Simipour"
+        ]
+    },
+    {
+        "name": "munna",
+        "evo": [
+            "Musharna",
+            "Munna"
+        ]
+    },
+    {
+        "name": "musharna",
+        "evo": [
+            "Musharna",
+            "Munna"
+        ]
+    },
+    {
+        "name": "pidove",
+        "evo": [
+            "Pidove",
+            "Tranquill",
+            "Unfezant"
+        ]
+    },
+    {
+        "name": "tranquill",
+        "evo": [
+            "Pidove",
+            "Tranquill",
+            "Unfezant"
+        ]
+    },
+    {
+        "name": "unfezant",
+        "evo": [
+            "Pidove",
+            "Tranquill",
+            "Unfezant"
+        ]
+    },
+    {
+        "name": "blitzle",
+        "evo": [
+            "Blitzle",
+            "Zebstrika"
+        ]
+    },
+    {
+        "name": "zebstrika",
+        "evo": [
+            "Blitzle",
+            "Zebstrika"
+        ]
+    },
+    {
+        "name": "roggenrola",
+        "evo": [
+            "Roggenrola",
+            "Gigalith",
+            "Boldore"
+        ]
+    },
+    {
+        "name": "boldore",
+        "evo": [
+            "Roggenrola",
+            "Gigalith",
+            "Boldore"
+        ]
+    },
+    {
+        "name": "gigalith",
+        "evo": [
+            "Roggenrola",
+            "Gigalith",
+            "Boldore"
+        ]
+    },
+    {
+        "name": "woobat",
+        "evo": [
+            "Swoobat",
+            "Woobat"
+        ]
+    },
+    {
+        "name": "swoobat",
+        "evo": [
+            "Swoobat",
+            "Woobat"
+        ]
+    },
+    {
+        "name": "drilbur",
+        "evo": [
+            "Excadrill",
+            "Drilbur"
+        ]
+    },
+    {
+        "name": "excadrill",
+        "evo": [
+            "Excadrill",
+            "Drilbur"
+        ]
+    },
+    {
+        "name": "audino",
+        "evo": []
+    },
+    {
+        "name": "timburr",
+        "evo": [
+            "Gurdurr",
+            "Conkeldurr",
+            "Timburr"
+        ]
+    },
+    {
+        "name": "gurdurr",
+        "evo": [
+            "Gurdurr",
+            "Conkeldurr",
+            "Timburr"
+        ]
+    },
+    {
+        "name": "conkeldurr",
+        "evo": [
+            "Gurdurr",
+            "Conkeldurr",
+            "Timburr"
+        ]
+    },
+    {
+        "name": "tympole",
+        "evo": [
+            "Palpitoad",
+            "Seismitoad",
+            "Tympole"
+        ]
+    },
+    {
+        "name": "palpitoad",
+        "evo": [
+            "Palpitoad",
+            "Seismitoad",
+            "Tympole"
+        ]
+    },
+    {
+        "name": "seismitoad",
+        "evo": [
+            "Palpitoad",
+            "Seismitoad",
+            "Tympole"
+        ]
+    },
+    {
+        "name": "throh",
+        "evo": []
+    },
+    {
+        "name": "sawk",
+        "evo": []
+    },
+    {
+        "name": "sewaddle",
+        "evo": [
+            "Swadloon",
+            "Leavanny",
+            "Sewaddle"
+        ]
+    },
+    {
+        "name": "swadloon",
+        "evo": [
+            "Swadloon",
+            "Leavanny",
+            "Sewaddle"
+        ]
+    },
+    {
+        "name": "leavanny",
+        "evo": [
+            "Swadloon",
+            "Leavanny",
+            "Sewaddle"
+        ]
+    },
+    {
+        "name": "venipede",
+        "evo": [
+            "Venipede",
+            "Whirlipede",
+            "Scolipede"
+        ]
+    },
+    {
+        "name": "whirlipede",
+        "evo": [
+            "Venipede",
+            "Whirlipede",
+            "Scolipede"
+        ]
+    },
+    {
+        "name": "scolipede",
+        "evo": [
+            "Venipede",
+            "Whirlipede",
+            "Scolipede"
+        ]
+    },
+    {
+        "name": "cottonee",
+        "evo": [
+            "Whimsicott",
+            "Cottonee"
+        ]
+    },
+    {
+        "name": "whimsicott",
+        "evo": [
+            "Whimsicott",
+            "Cottonee"
+        ]
+    },
+    {
+        "name": "petilil",
+        "evo": [
+            "Petilil",
+            "Lilligant"
+        ]
+    },
+    {
+        "name": "lilligant",
+        "evo": [
+            "Petilil",
+            "Lilligant"
+        ]
+    },
+    {
+        "name": "basculin-red-striped",
+        "evo": []
+    },
+    {
+        "name": "sandile",
+        "evo": [
+            "Krokorok",
+            "Krookodile",
+            "Sandile"
+        ]
+    },
+    {
+        "name": "krokorok",
+        "evo": [
+            "Krokorok",
+            "Krookodile",
+            "Sandile"
+        ]
+    },
+    {
+        "name": "krookodile",
+        "evo": [
+            "Krokorok",
+            "Krookodile",
+            "Sandile"
+        ]
+    },
+    {
+        "name": "darumaka",
+        "evo": [
+            "Darumaka",
+            "Darmanitan"
+        ]
+    },
+    {
+        "name": "darmanitan-standard",
+        "evo": []
+    },
+    {
+        "name": "maractus",
+        "evo": []
+    },
+    {
+        "name": "dwebble",
+        "evo": [
+            "Dwebble",
+            "Crustle"
+        ]
+    },
+    {
+        "name": "crustle",
+        "evo": [
+            "Dwebble",
+            "Crustle"
+        ]
+    },
+    {
+        "name": "scraggy",
+        "evo": [
+            "Scraggy",
+            "Scrafty"
+        ]
+    },
+    {
+        "name": "scrafty",
+        "evo": [
+            "Scraggy",
+            "Scrafty"
+        ]
+    },
+    {
+        "name": "sigilyph",
+        "evo": []
+    },
+    {
+        "name": "yamask",
+        "evo": [
+            "Runerigus",
+            "Yamask",
+            "Cofagrigus"
+        ]
+    },
+    {
+        "name": "cofagrigus",
+        "evo": [
+            "Runerigus",
+            "Yamask",
+            "Cofagrigus"
+        ]
+    },
+    {
+        "name": "tirtouga",
+        "evo": [
+            "Tirtouga",
+            "Carracosta"
+        ]
+    },
+    {
+        "name": "carracosta",
+        "evo": [
+            "Tirtouga",
+            "Carracosta"
+        ]
+    },
+    {
+        "name": "archen",
+        "evo": [
+            "Archeops",
+            "Archen"
+        ]
+    },
+    {
+        "name": "archeops",
+        "evo": [
+            "Archeops",
+            "Archen"
+        ]
+    },
+    {
+        "name": "trubbish",
+        "evo": [
+            "Garbodor",
+            "Trubbish"
+        ]
+    },
+    {
+        "name": "garbodor",
+        "evo": [
+            "Garbodor",
+            "Trubbish"
+        ]
+    },
+    {
+        "name": "zorua",
+        "evo": [
+            "Zorua",
+            "Zoroark"
+        ]
+    },
+    {
+        "name": "zoroark",
+        "evo": [
+            "Zorua",
+            "Zoroark"
+        ]
+    },
+    {
+        "name": "minccino",
+        "evo": [
+            "Cinccino",
+            "Minccino"
+        ]
+    },
+    {
+        "name": "cinccino",
+        "evo": [
+            "Cinccino",
+            "Minccino"
+        ]
+    },
+    {
+        "name": "gothita",
+        "evo": [
+            "Gothitelle",
+            "Gothorita",
+            "Gothita"
+        ]
+    },
+    {
+        "name": "gothorita",
+        "evo": [
+            "Gothitelle",
+            "Gothorita",
+            "Gothita"
+        ]
+    },
+    {
+        "name": "gothitelle",
+        "evo": [
+            "Gothitelle",
+            "Gothorita",
+            "Gothita"
+        ]
+    },
+    {
+        "name": "solosis",
+        "evo": [
+            "Reuniclus",
+            "Solosis",
+            "Duosion"
+        ]
+    },
+    {
+        "name": "duosion",
+        "evo": [
+            "Reuniclus",
+            "Solosis",
+            "Duosion"
+        ]
+    },
+    {
+        "name": "reuniclus",
+        "evo": [
+            "Reuniclus",
+            "Solosis",
+            "Duosion"
+        ]
+    },
+    {
+        "name": "ducklett",
+        "evo": [
+            "Swanna",
+            "Ducklett"
+        ]
+    },
+    {
+        "name": "swanna",
+        "evo": [
+            "Swanna",
+            "Ducklett"
+        ]
+    },
+    {
+        "name": "vanillite",
+        "evo": [
+            "Vanillish",
+            "Vanilluxe",
+            "Vanillite"
+        ]
+    },
+    {
+        "name": "vanillish",
+        "evo": [
+            "Vanillish",
+            "Vanilluxe",
+            "Vanillite"
+        ]
+    },
+    {
+        "name": "vanilluxe",
+        "evo": [
+            "Vanillish",
+            "Vanilluxe",
+            "Vanillite"
+        ]
+    },
+    {
+        "name": "deerling",
+        "evo": [
+            "Deerling",
+            "Sawsbuck"
+        ]
+    },
+    {
+        "name": "sawsbuck",
+        "evo": [
+            "Deerling",
+            "Sawsbuck"
+        ]
+    },
+    {
+        "name": "emolga",
+        "evo": []
+    },
+    {
+        "name": "karrablast",
+        "evo": [
+            "Karrablast",
+            "Escavalier"
+        ]
+    },
+    {
+        "name": "escavalier",
+        "evo": [
+            "Karrablast",
+            "Escavalier"
+        ]
+    },
+    {
+        "name": "foongus",
+        "evo": [
+            "Foongus",
+            "Amoonguss"
+        ]
+    },
+    {
+        "name": "amoonguss",
+        "evo": [
+            "Foongus",
+            "Amoonguss"
+        ]
+    },
+    {
+        "name": "frillish",
+        "evo": [
+            "Jellicent",
+            "Frillish"
+        ]
+    },
+    {
+        "name": "jellicent",
+        "evo": [
+            "Jellicent",
+            "Frillish"
+        ]
+    },
+    {
+        "name": "alomomola",
+        "evo": []
+    },
+    {
+        "name": "joltik",
+        "evo": [
+            "Joltik",
+            "Galvantula"
+        ]
+    },
+    {
+        "name": "galvantula",
+        "evo": [
+            "Joltik",
+            "Galvantula"
+        ]
+    },
+    {
+        "name": "ferroseed",
+        "evo": [
+            "Ferroseed",
+            "Ferrothorn"
+        ]
+    },
+    {
+        "name": "ferrothorn",
+        "evo": [
+            "Ferroseed",
+            "Ferrothorn"
+        ]
+    },
+    {
+        "name": "klink",
+        "evo": [
+            "Klang",
+            "Klink",
+            "Klinklang"
+        ]
+    },
+    {
+        "name": "klang",
+        "evo": [
+            "Klang",
+            "Klink",
+            "Klinklang"
+        ]
+    },
+    {
+        "name": "klinklang",
+        "evo": [
+            "Klang",
+            "Klink",
+            "Klinklang"
+        ]
+    },
+    {
+        "name": "tynamo",
+        "evo": [
+            "Eelektrik",
+            "Eelektross",
+            "Tynamo"
+        ]
+    },
+    {
+        "name": "eelektrik",
+        "evo": [
+            "Eelektrik",
+            "Eelektross",
+            "Tynamo"
+        ]
+    },
+    {
+        "name": "eelektross",
+        "evo": [
+            "Eelektrik",
+            "Eelektross",
+            "Tynamo"
+        ]
+    },
+    {
+        "name": "elgyem",
+        "evo": [
+            "Elgyem",
+            "Beheeyem"
+        ]
+    },
+    {
+        "name": "beheeyem",
+        "evo": [
+            "Elgyem",
+            "Beheeyem"
+        ]
+    },
+    {
+        "name": "litwick",
+        "evo": [
+            "Chandelure",
+            "Litwick",
+            "Lampent"
+        ]
+    },
+    {
+        "name": "lampent",
+        "evo": [
+            "Chandelure",
+            "Litwick",
+            "Lampent"
+        ]
+    },
+    {
+        "name": "chandelure",
+        "evo": [
+            "Chandelure",
+            "Litwick",
+            "Lampent"
+        ]
+    },
+    {
+        "name": "axew",
+        "evo": [
+            "Haxorus",
+            "Axew",
+            "Fraxure"
+        ]
+    },
+    {
+        "name": "fraxure",
+        "evo": [
+            "Haxorus",
+            "Axew",
+            "Fraxure"
+        ]
+    },
+    {
+        "name": "haxorus",
+        "evo": [
+            "Haxorus",
+            "Axew",
+            "Fraxure"
+        ]
+    },
+    {
+        "name": "cubchoo",
+        "evo": [
+            "Beartic",
+            "Cubchoo"
+        ]
+    },
+    {
+        "name": "beartic",
+        "evo": [
+            "Beartic",
+            "Cubchoo"
+        ]
+    },
+    {
+        "name": "cryogonal",
+        "evo": []
+    },
+    {
+        "name": "shelmet",
+        "evo": [
+            "Shelmet",
+            "Accelgor"
+        ]
+    },
+    {
+        "name": "accelgor",
+        "evo": [
+            "Shelmet",
+            "Accelgor"
+        ]
+    },
+    {
+        "name": "stunfisk",
+        "evo": []
+    },
+    {
+        "name": "mienfoo",
+        "evo": [
+            "Mienfoo",
+            "Mienshao"
+        ]
+    },
+    {
+        "name": "mienshao",
+        "evo": [
+            "Mienfoo",
+            "Mienshao"
+        ]
+    },
+    {
+        "name": "druddigon",
+        "evo": []
+    },
+    {
+        "name": "golett",
+        "evo": [
+            "Golurk",
+            "Golett"
+        ]
+    },
+    {
+        "name": "golurk",
+        "evo": [
+            "Golurk",
+            "Golett"
+        ]
+    },
+    {
+        "name": "pawniard",
+        "evo": [
+            "Bisharp",
+            "Kingambit",
+            "Pawniard"
+        ]
+    },
+    {
+        "name": "bisharp",
+        "evo": [
+            "Bisharp",
+            "Kingambit",
+            "Pawniard"
+        ]
+    },
+    {
+        "name": "bouffalant",
+        "evo": []
+    },
+    {
+        "name": "rufflet",
+        "evo": [
+            "Rufflet",
+            "Braviary"
+        ]
+    },
+    {
+        "name": "braviary",
+        "evo": [
+            "Rufflet",
+            "Braviary"
+        ]
+    },
+    {
+        "name": "vullaby",
+        "evo": [
+            "Mandibuzz",
+            "Vullaby"
+        ]
+    },
+    {
+        "name": "mandibuzz",
+        "evo": [
+            "Mandibuzz",
+            "Vullaby"
+        ]
+    },
+    {
+        "name": "heatmor",
+        "evo": []
+    },
+    {
+        "name": "durant",
+        "evo": []
+    },
+    {
+        "name": "deino",
+        "evo": [
+            "Deino",
+            "Zweilous",
+            "Hydreigon"
+        ]
+    },
+    {
+        "name": "zweilous",
+        "evo": [
+            "Deino",
+            "Zweilous",
+            "Hydreigon"
+        ]
+    },
+    {
+        "name": "hydreigon",
+        "evo": [
+            "Deino",
+            "Zweilous",
+            "Hydreigon"
+        ]
+    },
+    {
+        "name": "larvesta",
+        "evo": [
+            "Volcarona",
+            "Larvesta"
+        ]
+    },
+    {
+        "name": "volcarona",
+        "evo": [
+            "Volcarona",
+            "Larvesta"
+        ]
+    },
+    {
+        "name": "cobalion",
+        "evo": []
+    },
+    {
+        "name": "terrakion",
+        "evo": []
+    },
+    {
+        "name": "virizion",
+        "evo": []
+    },
+    {
+        "name": "tornadus-incarnate",
+        "evo": []
+    },
+    {
+        "name": "thundurus-incarnate",
+        "evo": []
+    },
+    {
+        "name": "reshiram",
+        "evo": []
+    },
+    {
+        "name": "zekrom",
+        "evo": []
+    },
+    {
+        "name": "landorus-incarnate",
+        "evo": []
+    },
+    {
+        "name": "kyurem",
+        "evo": []
+    },
+    {
+        "name": "keldeo-ordinary",
+        "evo": []
+    },
+    {
+        "name": "meloetta-aria",
+        "evo": []
+    },
+    {
+        "name": "genesect",
+        "evo": []
+    },
+    {
+        "name": "chespin",
+        "evo": [
+            "Chesnaught",
+            "Chespin",
+            "Quilladin"
+        ]
+    },
+    {
+        "name": "quilladin",
+        "evo": [
+            "Chesnaught",
+            "Chespin",
+            "Quilladin"
+        ]
+    },
+    {
+        "name": "chesnaught",
+        "evo": [
+            "Chesnaught",
+            "Chespin",
+            "Quilladin"
+        ]
+    },
+    {
+        "name": "fennekin",
+        "evo": [
+            "Delphox",
+            "Braixen",
+            "Fennekin"
+        ]
+    },
+    {
+        "name": "braixen",
+        "evo": [
+            "Delphox",
+            "Braixen",
+            "Fennekin"
+        ]
+    },
+    {
+        "name": "delphox",
+        "evo": [
+            "Delphox",
+            "Braixen",
+            "Fennekin"
+        ]
+    },
+    {
+        "name": "froakie",
+        "evo": [
+            "Greninja",
+            "Froakie",
+            "Frogadier"
+        ]
+    },
+    {
+        "name": "frogadier",
+        "evo": [
+            "Greninja",
+            "Froakie",
+            "Frogadier"
+        ]
+    },
+    {
+        "name": "greninja",
+        "evo": [
+            "Greninja",
+            "Froakie",
+            "Frogadier"
+        ]
+    },
+    {
+        "name": "bunnelby",
+        "evo": [
+            "Bunnelby",
+            "Diggersby"
+        ]
+    },
+    {
+        "name": "diggersby",
+        "evo": [
+            "Bunnelby",
+            "Diggersby"
+        ]
+    },
+    {
+        "name": "fletchling",
+        "evo": [
+            "Fletchinder",
+            "Talonflame",
+            "Fletchling"
+        ]
+    },
+    {
+        "name": "fletchinder",
+        "evo": [
+            "Fletchinder",
+            "Talonflame",
+            "Fletchling"
+        ]
+    },
+    {
+        "name": "talonflame",
+        "evo": [
+            "Fletchinder",
+            "Talonflame",
+            "Fletchling"
+        ]
+    },
+    {
+        "name": "scatterbug",
+        "evo": [
+            "Spewpa",
+            "Vivillon",
+            "Scatterbug"
+        ]
+    },
+    {
+        "name": "spewpa",
+        "evo": [
+            "Spewpa",
+            "Vivillon",
+            "Scatterbug"
+        ]
+    },
+    {
+        "name": "vivillon",
+        "evo": [
+            "Spewpa",
+            "Vivillon",
+            "Scatterbug"
+        ]
+    },
+    {
+        "name": "litleo",
+        "evo": [
+            "Pyroar",
+            "Litleo"
+        ]
+    },
+    {
+        "name": "pyroar",
+        "evo": [
+            "Pyroar",
+            "Litleo"
+        ]
+    },
+    {
+        "name": "flabebe",
+        "evo": [
+            "Floette",
+            "Flab\u00e9b\u00e9",
+            "Florges"
+        ]
+    },
+    {
+        "name": "floette",
+        "evo": [
+            "Floette",
+            "Flab\u00e9b\u00e9",
+            "Florges"
+        ]
+    },
+    {
+        "name": "florges",
+        "evo": [
+            "Floette",
+            "Flab\u00e9b\u00e9",
+            "Florges"
+        ]
+    },
+    {
+        "name": "skiddo",
+        "evo": [
+            "Skiddo",
+            "Gogoat"
+        ]
+    },
+    {
+        "name": "gogoat",
+        "evo": [
+            "Skiddo",
+            "Gogoat"
+        ]
+    },
+    {
+        "name": "pancham",
+        "evo": [
+            "Pangoro",
+            "Pancham"
+        ]
+    },
+    {
+        "name": "pangoro",
+        "evo": [
+            "Pangoro",
+            "Pancham"
+        ]
+    },
+    {
+        "name": "furfrou",
+        "evo": []
+    },
+    {
+        "name": "espurr",
+        "evo": [
+            "Espurr",
+            "Meowstic"
+        ]
+    },
+    {
+        "name": "meowstic-male",
+        "evo": []
+    },
+    {
+        "name": "honedge",
+        "evo": [
+            "Doublade",
+            "Aegislash",
+            "Honedge"
+        ]
+    },
+    {
+        "name": "doublade",
+        "evo": [
+            "Doublade",
+            "Aegislash",
+            "Honedge"
+        ]
+    },
+    {
+        "name": "aegislash-shield",
+        "evo": []
+    },
+    {
+        "name": "spritzee",
+        "evo": [
+            "Aromatisse",
+            "Spritzee"
+        ]
+    },
+    {
+        "name": "aromatisse",
+        "evo": [
+            "Aromatisse",
+            "Spritzee"
+        ]
+    },
+    {
+        "name": "swirlix",
+        "evo": [
+            "Swirlix",
+            "Slurpuff"
+        ]
+    },
+    {
+        "name": "slurpuff",
+        "evo": [
+            "Swirlix",
+            "Slurpuff"
+        ]
+    },
+    {
+        "name": "inkay",
+        "evo": [
+            "Malamar",
+            "Inkay"
+        ]
+    },
+    {
+        "name": "malamar",
+        "evo": [
+            "Malamar",
+            "Inkay"
+        ]
+    },
+    {
+        "name": "binacle",
+        "evo": [
+            "Binacle",
+            "Barbaracle"
+        ]
+    },
+    {
+        "name": "barbaracle",
+        "evo": [
+            "Binacle",
+            "Barbaracle"
+        ]
+    },
+    {
+        "name": "skrelp",
+        "evo": [
+            "Skrelp",
+            "Dragalge"
+        ]
+    },
+    {
+        "name": "dragalge",
+        "evo": [
+            "Skrelp",
+            "Dragalge"
+        ]
+    },
+    {
+        "name": "clauncher",
+        "evo": [
+            "Clawitzer",
+            "Clauncher"
+        ]
+    },
+    {
+        "name": "clawitzer",
+        "evo": [
+            "Clawitzer",
+            "Clauncher"
+        ]
+    },
+    {
+        "name": "helioptile",
+        "evo": [
+            "Heliolisk",
+            "Helioptile"
+        ]
+    },
+    {
+        "name": "heliolisk",
+        "evo": [
+            "Heliolisk",
+            "Helioptile"
+        ]
+    },
+    {
+        "name": "tyrunt",
+        "evo": [
+            "Tyrantrum",
+            "Tyrunt"
+        ]
+    },
+    {
+        "name": "tyrantrum",
+        "evo": [
+            "Tyrantrum",
+            "Tyrunt"
+        ]
+    },
+    {
+        "name": "amaura",
+        "evo": [
+            "Amaura",
+            "Aurorus"
+        ]
+    },
+    {
+        "name": "aurorus",
+        "evo": [
+            "Amaura",
+            "Aurorus"
+        ]
+    },
+    {
+        "name": "sylveon",
+        "evo": [
+            "Espeon",
+            "Sylveon",
+            "Flareon",
+            "Eevee",
+            "Glaceon",
+            "Leafeon",
+            "Jolteon",
+            "Umbreon",
+            "Vaporeon"
+        ]
+    },
+    {
+        "name": "hawlucha",
+        "evo": []
+    },
+    {
+        "name": "dedenne",
+        "evo": []
+    },
+    {
+        "name": "carbink",
+        "evo": []
+    },
+    {
+        "name": "goomy",
+        "evo": [
+            "Goodra",
+            "Goomy",
+            "Sliggoo"
+        ]
+    },
+    {
+        "name": "sliggoo",
+        "evo": [
+            "Goodra",
+            "Goomy",
+            "Sliggoo"
+        ]
+    },
+    {
+        "name": "goodra",
+        "evo": [
+            "Goodra",
+            "Goomy",
+            "Sliggoo"
+        ]
+    },
+    {
+        "name": "klefki",
+        "evo": []
+    },
+    {
+        "name": "phantump",
+        "evo": [
+            "Trevenant",
+            "Phantump"
+        ]
+    },
+    {
+        "name": "trevenant",
+        "evo": [
+            "Trevenant",
+            "Phantump"
+        ]
+    },
+    {
+        "name": "pumpkaboo-average",
+        "evo": []
+    },
+    {
+        "name": "gourgeist-average",
+        "evo": []
+    },
+    {
+        "name": "bergmite",
+        "evo": [
+            "Bergmite",
+            "Avalugg"
+        ]
+    },
+    {
+        "name": "avalugg",
+        "evo": [
+            "Bergmite",
+            "Avalugg"
+        ]
+    },
+    {
+        "name": "noibat",
+        "evo": [
+            "Noibat",
+            "Noivern"
+        ]
+    },
+    {
+        "name": "noivern",
+        "evo": [
+            "Noibat",
+            "Noivern"
+        ]
+    },
+    {
+        "name": "xerneas",
+        "evo": []
+    },
+    {
+        "name": "yveltal",
+        "evo": []
+    },
+    {
+        "name": "zygarde-50",
+        "evo": []
+    },
+    {
+        "name": "diancie",
+        "evo": []
+    },
+    {
+        "name": "hoopa",
+        "evo": []
+    },
+    {
+        "name": "volcanion",
+        "evo": []
+    },
+    {
+        "name": "rowlet",
+        "evo": [
+            "Decidueye",
+            "Rowlet",
+            "Dartrix"
+        ]
+    },
+    {
+        "name": "dartrix",
+        "evo": [
+            "Decidueye",
+            "Rowlet",
+            "Dartrix"
+        ]
+    },
+    {
+        "name": "decidueye",
+        "evo": [
+            "Decidueye",
+            "Rowlet",
+            "Dartrix"
+        ]
+    },
+    {
+        "name": "litten",
+        "evo": [
+            "Litten",
+            "Torracat",
+            "Incineroar"
+        ]
+    },
+    {
+        "name": "torracat",
+        "evo": [
+            "Litten",
+            "Torracat",
+            "Incineroar"
+        ]
+    },
+    {
+        "name": "incineroar",
+        "evo": [
+            "Litten",
+            "Torracat",
+            "Incineroar"
+        ]
+    },
+    {
+        "name": "popplio",
+        "evo": [
+            "Popplio",
+            "Primarina",
+            "Brionne"
+        ]
+    },
+    {
+        "name": "brionne",
+        "evo": [
+            "Popplio",
+            "Primarina",
+            "Brionne"
+        ]
+    },
+    {
+        "name": "primarina",
+        "evo": [
+            "Popplio",
+            "Primarina",
+            "Brionne"
+        ]
+    },
+    {
+        "name": "pikipek",
+        "evo": [
+            "Pikipek",
+            "Toucannon",
+            "Trumbeak"
+        ]
+    },
+    {
+        "name": "trumbeak",
+        "evo": [
+            "Pikipek",
+            "Toucannon",
+            "Trumbeak"
+        ]
+    },
+    {
+        "name": "toucannon",
+        "evo": [
+            "Pikipek",
+            "Toucannon",
+            "Trumbeak"
+        ]
+    },
+    {
+        "name": "yungoos",
+        "evo": [
+            "Yungoos",
+            "Gumshoos"
+        ]
+    },
+    {
+        "name": "gumshoos",
+        "evo": [
+            "Yungoos",
+            "Gumshoos"
+        ]
+    },
+    {
+        "name": "grubbin",
+        "evo": [
+            "Vikavolt",
+            "Charjabug",
+            "Grubbin"
+        ]
+    },
+    {
+        "name": "charjabug",
+        "evo": [
+            "Vikavolt",
+            "Charjabug",
+            "Grubbin"
+        ]
+    },
+    {
+        "name": "vikavolt",
+        "evo": [
+            "Vikavolt",
+            "Charjabug",
+            "Grubbin"
+        ]
+    },
+    {
+        "name": "crabrawler",
+        "evo": [
+            "Crabrawler",
+            "Crabominable"
+        ]
+    },
+    {
+        "name": "crabominable",
+        "evo": [
+            "Crabrawler",
+            "Crabominable"
+        ]
+    },
+    {
+        "name": "oricorio-baile",
+        "evo": []
+    },
+    {
+        "name": "cutiefly",
+        "evo": [
+            "Cutiefly",
+            "Ribombee"
+        ]
+    },
+    {
+        "name": "ribombee",
+        "evo": [
+            "Cutiefly",
+            "Ribombee"
+        ]
+    },
+    {
+        "name": "rockruff",
+        "evo": [
+            "Lycanroc",
+            "Rockruff"
+        ]
+    },
+    {
+        "name": "lycanroc-midday",
+        "evo": []
+    },
+    {
+        "name": "wishiwashi-solo",
+        "evo": []
+    },
+    {
+        "name": "mareanie",
+        "evo": [
+            "Toxapex",
+            "Mareanie"
+        ]
+    },
+    {
+        "name": "toxapex",
+        "evo": [
+            "Toxapex",
+            "Mareanie"
+        ]
+    },
+    {
+        "name": "mudbray",
+        "evo": [
+            "Mudsdale",
+            "Mudbray"
+        ]
+    },
+    {
+        "name": "mudsdale",
+        "evo": [
+            "Mudsdale",
+            "Mudbray"
+        ]
+    },
+    {
+        "name": "dewpider",
+        "evo": [
+            "Dewpider",
+            "Araquanid"
+        ]
+    },
+    {
+        "name": "araquanid",
+        "evo": [
+            "Dewpider",
+            "Araquanid"
+        ]
+    },
+    {
+        "name": "fomantis",
+        "evo": [
+            "Lurantis",
+            "Fomantis"
+        ]
+    },
+    {
+        "name": "lurantis",
+        "evo": [
+            "Lurantis",
+            "Fomantis"
+        ]
+    },
+    {
+        "name": "morelull",
+        "evo": [
+            "Morelull",
+            "Shiinotic"
+        ]
+    },
+    {
+        "name": "shiinotic",
+        "evo": [
+            "Morelull",
+            "Shiinotic"
+        ]
+    },
+    {
+        "name": "salandit",
+        "evo": [
+            "Salandit",
+            "Salazzle"
+        ]
+    },
+    {
+        "name": "salazzle",
+        "evo": [
+            "Salandit",
+            "Salazzle"
+        ]
+    },
+    {
+        "name": "stufful",
+        "evo": [
+            "Bewear",
+            "Stufful"
+        ]
+    },
+    {
+        "name": "bewear",
+        "evo": [
+            "Bewear",
+            "Stufful"
+        ]
+    },
+    {
+        "name": "bounsweet",
+        "evo": [
+            "Tsareena",
+            "Steenee",
+            "Bounsweet"
+        ]
+    },
+    {
+        "name": "steenee",
+        "evo": [
+            "Tsareena",
+            "Steenee",
+            "Bounsweet"
+        ]
+    },
+    {
+        "name": "tsareena",
+        "evo": [
+            "Tsareena",
+            "Steenee",
+            "Bounsweet"
+        ]
+    },
+    {
+        "name": "comfey",
+        "evo": []
+    },
+    {
+        "name": "oranguru",
+        "evo": []
+    },
+    {
+        "name": "passimian",
+        "evo": []
+    },
+    {
+        "name": "wimpod",
+        "evo": [
+            "Wimpod",
+            "Golisopod"
+        ]
+    },
+    {
+        "name": "golisopod",
+        "evo": [
+            "Wimpod",
+            "Golisopod"
+        ]
+    },
+    {
+        "name": "sandygast",
+        "evo": [
+            "Palossand",
+            "Sandygast"
+        ]
+    },
+    {
+        "name": "palossand",
+        "evo": [
+            "Palossand",
+            "Sandygast"
+        ]
+    },
+    {
+        "name": "pyukumuku",
+        "evo": []
+    },
+    {
+        "name": "type-null",
+        "evo": [
+            "Type: Null",
+            "Silvally"
+        ]
+    },
+    {
+        "name": "silvally",
+        "evo": [
+            "Type: Null",
+            "Silvally"
+        ]
+    },
+    {
+        "name": "minior-red-meteor",
+        "evo": []
+    },
+    {
+        "name": "komala",
+        "evo": []
+    },
+    {
+        "name": "turtonator",
+        "evo": []
+    },
+    {
+        "name": "togedemaru",
+        "evo": []
+    },
+    {
+        "name": "mimikyu-disguised",
+        "evo": []
+    },
+    {
+        "name": "bruxish",
+        "evo": []
+    },
+    {
+        "name": "drampa",
+        "evo": []
+    },
+    {
+        "name": "dhelmise",
+        "evo": []
+    },
+    {
+        "name": "jangmo-o",
+        "evo": [
+            "Hakamo-o",
+            "Kommo-o",
+            "Jangmo-o"
+        ]
+    },
+    {
+        "name": "hakamo-o",
+        "evo": [
+            "Hakamo-o",
+            "Kommo-o",
+            "Jangmo-o"
+        ]
+    },
+    {
+        "name": "kommo-o",
+        "evo": [
+            "Hakamo-o",
+            "Kommo-o",
+            "Jangmo-o"
+        ]
+    },
+    {
+        "name": "tapu-koko",
+        "evo": []
+    },
+    {
+        "name": "tapu-lele",
+        "evo": []
+    },
+    {
+        "name": "tapu-bulu",
+        "evo": []
+    },
+    {
+        "name": "tapu-fini",
+        "evo": []
+    },
+    {
+        "name": "cosmog",
+        "evo": [
+            "Solgaleo",
+            "Cosmoem",
+            "Lunala",
+            "Cosmog"
+        ]
+    },
+    {
+        "name": "cosmoem",
+        "evo": [
+            "Solgaleo",
+            "Cosmoem",
+            "Lunala",
+            "Cosmog"
+        ]
+    },
+    {
+        "name": "solgaleo",
+        "evo": [
+            "Solgaleo",
+            "Cosmoem",
+            "Lunala",
+            "Cosmog"
+        ]
+    },
+    {
+        "name": "lunala",
+        "evo": [
+            "Solgaleo",
+            "Cosmoem",
+            "Lunala",
+            "Cosmog"
+        ]
+    },
+    {
+        "name": "nihilego",
+        "evo": []
+    },
+    {
+        "name": "buzzwole",
+        "evo": []
+    },
+    {
+        "name": "pheromosa",
+        "evo": []
+    },
+    {
+        "name": "xurkitree",
+        "evo": []
+    },
+    {
+        "name": "celesteela",
+        "evo": []
+    },
+    {
+        "name": "kartana",
+        "evo": []
+    },
+    {
+        "name": "guzzlord",
+        "evo": []
+    },
+    {
+        "name": "necrozma",
+        "evo": []
+    },
+    {
+        "name": "magearna",
+        "evo": []
+    },
+    {
+        "name": "marshadow",
+        "evo": []
+    },
+    {
+        "name": "poipole",
+        "evo": [
+            "Poipole",
+            "Naganadel"
+        ]
+    },
+    {
+        "name": "naganadel",
+        "evo": [
+            "Poipole",
+            "Naganadel"
+        ]
+    },
+    {
+        "name": "stakataka",
+        "evo": []
+    },
+    {
+        "name": "blacephalon",
+        "evo": []
+    },
+    {
+        "name": "zeraora",
+        "evo": []
+    },
+    {
+        "name": "meltan",
+        "evo": [
+            "Meltan",
+            "Melmetal"
+        ]
+    },
+    {
+        "name": "melmetal",
+        "evo": [
+            "Meltan",
+            "Melmetal"
+        ]
+    },
+    {
+        "name": "grookey",
+        "evo": [
+            "Thwackey",
+            "Grookey",
+            "Rillaboom"
+        ]
+    },
+    {
+        "name": "thwackey",
+        "evo": [
+            "Thwackey",
+            "Grookey",
+            "Rillaboom"
+        ]
+    },
+    {
+        "name": "rillaboom",
+        "evo": [
+            "Thwackey",
+            "Grookey",
+            "Rillaboom"
+        ]
+    },
+    {
+        "name": "scorbunny",
+        "evo": [
+            "Cinderace",
+            "Raboot",
+            "Scorbunny"
+        ]
+    },
+    {
+        "name": "raboot",
+        "evo": [
+            "Cinderace",
+            "Raboot",
+            "Scorbunny"
+        ]
+    },
+    {
+        "name": "cinderace",
+        "evo": [
+            "Cinderace",
+            "Raboot",
+            "Scorbunny"
+        ]
+    },
+    {
+        "name": "sobble",
+        "evo": [
+            "Sobble",
+            "Drizzile",
+            "Inteleon"
+        ]
+    },
+    {
+        "name": "drizzile",
+        "evo": [
+            "Sobble",
+            "Drizzile",
+            "Inteleon"
+        ]
+    },
+    {
+        "name": "inteleon",
+        "evo": [
+            "Sobble",
+            "Drizzile",
+            "Inteleon"
+        ]
+    },
+    {
+        "name": "skwovet",
+        "evo": [
+            "Skwovet",
+            "Greedent"
+        ]
+    },
+    {
+        "name": "greedent",
+        "evo": [
+            "Skwovet",
+            "Greedent"
+        ]
+    },
+    {
+        "name": "rookidee",
+        "evo": [
+            "Rookidee",
+            "Corvisquire",
+            "Corviknight"
+        ]
+    },
+    {
+        "name": "corvisquire",
+        "evo": [
+            "Rookidee",
+            "Corvisquire",
+            "Corviknight"
+        ]
+    },
+    {
+        "name": "corviknight",
+        "evo": [
+            "Rookidee",
+            "Corvisquire",
+            "Corviknight"
+        ]
+    },
+    {
+        "name": "blipbug",
+        "evo": [
+            "Blipbug",
+            "Orbeetle",
+            "Dottler"
+        ]
+    },
+    {
+        "name": "dottler",
+        "evo": [
+            "Blipbug",
+            "Orbeetle",
+            "Dottler"
+        ]
+    },
+    {
+        "name": "orbeetle",
+        "evo": [
+            "Blipbug",
+            "Orbeetle",
+            "Dottler"
+        ]
+    },
+    {
+        "name": "nickit",
+        "evo": [
+            "Thievul",
+            "Nickit"
+        ]
+    },
+    {
+        "name": "thievul",
+        "evo": [
+            "Thievul",
+            "Nickit"
+        ]
+    },
+    {
+        "name": "gossifleur",
+        "evo": [
+            "Eldegoss",
+            "Gossifleur"
+        ]
+    },
+    {
+        "name": "eldegoss",
+        "evo": [
+            "Eldegoss",
+            "Gossifleur"
+        ]
+    },
+    {
+        "name": "wooloo",
+        "evo": [
+            "Dubwool",
+            "Wooloo"
+        ]
+    },
+    {
+        "name": "dubwool",
+        "evo": [
+            "Dubwool",
+            "Wooloo"
+        ]
+    },
+    {
+        "name": "chewtle",
+        "evo": [
+            "Drednaw",
+            "Chewtle"
+        ]
+    },
+    {
+        "name": "drednaw",
+        "evo": [
+            "Drednaw",
+            "Chewtle"
+        ]
+    },
+    {
+        "name": "yamper",
+        "evo": [
+            "Yamper",
+            "Boltund"
+        ]
+    },
+    {
+        "name": "boltund",
+        "evo": [
+            "Yamper",
+            "Boltund"
+        ]
+    },
+    {
+        "name": "rolycoly",
+        "evo": [
+            "Rolycoly",
+            "Carkol",
+            "Coalossal"
+        ]
+    },
+    {
+        "name": "carkol",
+        "evo": [
+            "Rolycoly",
+            "Carkol",
+            "Coalossal"
+        ]
+    },
+    {
+        "name": "coalossal",
+        "evo": [
+            "Rolycoly",
+            "Carkol",
+            "Coalossal"
+        ]
+    },
+    {
+        "name": "applin",
+        "evo": [
+            "Applin",
+            "Appletun",
+            "Flapple"
+        ]
+    },
+    {
+        "name": "flapple",
+        "evo": [
+            "Applin",
+            "Appletun",
+            "Flapple"
+        ]
+    },
+    {
+        "name": "appletun",
+        "evo": [
+            "Applin",
+            "Appletun",
+            "Flapple"
+        ]
+    },
+    {
+        "name": "silicobra",
+        "evo": [
+            "Silicobra",
+            "Sandaconda"
+        ]
+    },
+    {
+        "name": "sandaconda",
+        "evo": [
+            "Silicobra",
+            "Sandaconda"
+        ]
+    },
+    {
+        "name": "cramorant",
+        "evo": []
+    },
+    {
+        "name": "arrokuda",
+        "evo": [
+            "Barraskewda",
+            "Arrokuda"
+        ]
+    },
+    {
+        "name": "barraskewda",
+        "evo": [
+            "Barraskewda",
+            "Arrokuda"
+        ]
+    },
+    {
+        "name": "toxel",
+        "evo": [
+            "Toxel",
+            "Toxtricity"
+        ]
+    },
+    {
+        "name": "toxtricity-amped",
+        "evo": []
+    },
+    {
+        "name": "sizzlipede",
+        "evo": [
+            "Centiskorch",
+            "Sizzlipede"
+        ]
+    },
+    {
+        "name": "centiskorch",
+        "evo": [
+            "Centiskorch",
+            "Sizzlipede"
+        ]
+    },
+    {
+        "name": "clobbopus",
+        "evo": [
+            "Clobbopus",
+            "Grapploct"
+        ]
+    },
+    {
+        "name": "grapploct",
+        "evo": [
+            "Clobbopus",
+            "Grapploct"
+        ]
+    },
+    {
+        "name": "sinistea",
+        "evo": [
+            "Sinistea",
+            "Polteageist"
+        ]
+    },
+    {
+        "name": "polteageist",
+        "evo": [
+            "Sinistea",
+            "Polteageist"
+        ]
+    },
+    {
+        "name": "hatenna",
+        "evo": [
+            "Hatenna",
+            "Hattrem",
+            "Hatterene"
+        ]
+    },
+    {
+        "name": "hattrem",
+        "evo": [
+            "Hatenna",
+            "Hattrem",
+            "Hatterene"
+        ]
+    },
+    {
+        "name": "hatterene",
+        "evo": [
+            "Hatenna",
+            "Hattrem",
+            "Hatterene"
+        ]
+    },
+    {
+        "name": "impidimp",
+        "evo": [
+            "Impidimp",
+            "Grimmsnarl",
+            "Morgrem"
+        ]
+    },
+    {
+        "name": "morgrem",
+        "evo": [
+            "Impidimp",
+            "Grimmsnarl",
+            "Morgrem"
+        ]
+    },
+    {
+        "name": "grimmsnarl",
+        "evo": [
+            "Impidimp",
+            "Grimmsnarl",
+            "Morgrem"
+        ]
+    },
+    {
+        "name": "obstagoon",
+        "evo": [
+            "Linoone",
+            "Zigzagoon",
+            "Obstagoon"
+        ]
+    },
+    {
+        "name": "perrserker",
+        "evo": [
+            "Persian",
+            "Perrserker",
+            "Meowth"
+        ]
+    },
+    {
+        "name": "cursola",
+        "evo": [
+            "Cursola",
+            "Corsola"
+        ]
+    },
+    {
+        "name": "sirfetchd",
+        "evo": [
+            "Sirfetch'd",
+            "Farfetch'd"
+        ]
+    },
+    {
+        "name": "mr-rime",
+        "evo": [
+            "Mr. Mime",
+            "Mime Jr.",
+            "Mr. Rime"
+        ]
+    },
+    {
+        "name": "runerigus",
+        "evo": [
+            "Runerigus",
+            "Yamask",
+            "Cofagrigus"
+        ]
+    },
+    {
+        "name": "milcery",
+        "evo": [
+            "Milcery",
+            "Alcremie"
+        ]
+    },
+    {
+        "name": "alcremie",
+        "evo": [
+            "Milcery",
+            "Alcremie"
+        ]
+    },
+    {
+        "name": "falinks",
+        "evo": []
+    },
+    {
+        "name": "pincurchin",
+        "evo": []
+    },
+    {
+        "name": "snom",
+        "evo": [
+            "Snom",
+            "Frosmoth"
+        ]
+    },
+    {
+        "name": "frosmoth",
+        "evo": [
+            "Snom",
+            "Frosmoth"
+        ]
+    },
+    {
+        "name": "stonjourner",
+        "evo": []
+    },
+    {
+        "name": "eiscue-ice",
+        "evo": []
+    },
+    {
+        "name": "indeedee-male",
+        "evo": []
+    },
+    {
+        "name": "morpeko-full-belly",
+        "evo": []
+    },
+    {
+        "name": "cufant",
+        "evo": [
+            "Copperajah",
+            "Cufant"
+        ]
+    },
+    {
+        "name": "copperajah",
+        "evo": [
+            "Copperajah",
+            "Cufant"
+        ]
+    },
+    {
+        "name": "dracozolt",
+        "evo": []
+    },
+    {
+        "name": "arctozolt",
+        "evo": []
+    },
+    {
+        "name": "dracovish",
+        "evo": []
+    },
+    {
+        "name": "arctovish",
+        "evo": []
+    },
+    {
+        "name": "duraludon",
+        "evo": []
+    },
+    {
+        "name": "dreepy",
+        "evo": [
+            "Dragapult",
+            "Dreepy",
+            "Drakloak"
+        ]
+    },
+    {
+        "name": "drakloak",
+        "evo": [
+            "Dragapult",
+            "Dreepy",
+            "Drakloak"
+        ]
+    },
+    {
+        "name": "dragapult",
+        "evo": [
+            "Dragapult",
+            "Dreepy",
+            "Drakloak"
+        ]
+    },
+    {
+        "name": "zacian",
+        "evo": []
+    },
+    {
+        "name": "zamazenta",
+        "evo": []
+    },
+    {
+        "name": "eternatus",
+        "evo": []
+    },
+    {
+        "name": "kubfu",
+        "evo": [
+            "Kubfu",
+            "Urshifu"
+        ]
+    },
+    {
+        "name": "urshifu-single-strike",
+        "evo": []
+    },
+    {
+        "name": "zarude",
+        "evo": []
+    },
+    {
+        "name": "regieleki",
+        "evo": []
+    },
+    {
+        "name": "regidrago",
+        "evo": []
+    },
+    {
+        "name": "glastrier",
+        "evo": []
+    },
+    {
+        "name": "spectrier",
+        "evo": []
+    },
+    {
+        "name": "calyrex",
+        "evo": []
+    }
+]

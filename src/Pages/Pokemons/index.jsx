@@ -1,3 +1,5 @@
+
+import dadosJSON from './dados.json';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
 import { useEffect,useState,useCallback } from "react";
@@ -13,37 +15,25 @@ function Poke() {
 
   document.body.style.backgroundColor = "#0c041b";
 
-  const getevolution = useCallback(()=>{
-    fetch(`https://pokeapi.co/api/v2/pokemon-species/${state.id}`)
-    .then((res) => res.json())
-    .then((data) => {
-      const evolutionChainUrl = data.evolution_chain.url;
+  const getPokemonEvolutions = useCallback( async (name) => {
+    
 
-      fetch(evolutionChainUrl)
-        .then((res) => res.json())
-        .then((data) => {
-          let current = data.chain
-          let evolutions = []
-          while(current){
-            evolutions.push(current.species.name)
-            current = current.evolves_to[0]
-          }
-          setEvolutionChain(evolutions)
-        })
-        .catch((err) => {
-          console.error(err);
-        });
-    })
-    .catch((err) => {
-      console.error(err);
-    });
-  },[state.id])
+    let arr = dadosJSON.find((poke)=> poke.name === name )
+    const evolution = arr.evo
+    console.log( evolution)
 
+    setEvolutionChain(evolution)
+
+    
+   
+  },[])
+    
 
 
   useEffect(() => {
-   getevolution()
-  }, [getevolution]);
+    getPokemonEvolutions(state.name)
+   
+  }, [getPokemonEvolutions,state.name]);
 
 
 
@@ -53,7 +43,7 @@ function Poke() {
       <PokeIMG />
       {evolutionChain ?(
       evolutionChain.map(name => {
-        return  <PokeData pokename={name} key={name} />
+        return  <PokeData pokename={name.toLowerCase()} key={name} id={state.id}/>
       })):("loanding..")
       }
       
