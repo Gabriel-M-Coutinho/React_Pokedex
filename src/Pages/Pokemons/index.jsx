@@ -42,8 +42,8 @@ function Poke() {
     <div className="d-flex flex-wrap estilobox">
       <PokeIMG />
       {evolutionChain ?(
-      evolutionChain.map(name => {
-        return  <PokeData pokename={name.toLowerCase()} key={name} id={state.id}/>
+      evolutionChain.map(evo => {
+        return  <PokeData pokename={evo.name.toLowerCase()} key={evo.name} id={state.id}/>
       })):("loanding..")
       }
       
