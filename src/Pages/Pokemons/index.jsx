@@ -82,7 +82,7 @@ function Poke() {
           {evolutionChain
             ? evolutionChain.map((evo) => {
                 return (
-                  <PokeData
+                  <PokeData 
                     pokename={evo.name.toLowerCase()}
                     key={evo.name}
                     id={evo.id}
