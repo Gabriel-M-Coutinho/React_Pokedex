@@ -70,11 +70,11 @@ function Poke({Sprite}) {
 
 
   return (
-    <div className="d-flex flex-wrap estilobox" autoFocus>
+    <div autoFocus>
       {result &&
       <PokeIMG json={result}/>
     } 
-      <p className="subtitulo linha" style={{ margin: "14vw 0vw 5vw 0vw" }}>
+      <p className="subtitulo linha" style={{ margin: "22vmin 0vw 5vw 0vw" }}>
         <span>Evolutions</span>
       </p>
       <div className="centralizartudo">

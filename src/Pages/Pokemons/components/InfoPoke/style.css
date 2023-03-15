@@ -19,7 +19,7 @@ ul {
   justify-content: center;
   align-items: center;
   margin-top: 8vw;
-  margin-left: -17px;
+  margin-left: -15px;
 }
 
 .itenslista {
@@ -82,7 +82,7 @@ p.subtitulo {
   color: #ffffff;
   font-size: max(3vmin, 13px);
   font-weight: 500;
-  margin-right: -24px;
+  margin-right: -31px;
 }
 
 .linha {

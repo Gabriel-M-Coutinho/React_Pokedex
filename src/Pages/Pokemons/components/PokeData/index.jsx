@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
 import React, { useCallback, useEffect, useState } from "react";
+import {Link} from "react-router-dom"
 
 const PokemonEvolutions = ({ pokename , id }) => {
   const [Sprite, SetSprite] = useState("");
@@ -22,9 +23,9 @@ const PokemonEvolutions = ({ pokename , id }) => {
   return (
     <div className="divdata">
         {Sprite ? (
-          <a className="card" href={`https://localhost:3000/pokemon/${id}`} foto={Sprite}>
+          <Link className="card" to={`/pokemon/${id}`} foto={Sprite}>
           <img className="sprite" src={Sprite} alt="loading..."></img>
-          </a>
+          </Link>
         ) : (
           <></>
         )}

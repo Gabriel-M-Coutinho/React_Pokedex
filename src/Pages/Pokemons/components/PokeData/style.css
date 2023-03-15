@@ -27,6 +27,9 @@ font-family: 'League Spartan', sans-serif;
   margin: 0 2vw 2vw 2vw;
   width: 15vw;
   height: 15vw;
+  max-width: 150px;
+  max-height: 150px;
+
 }
 
 .card:hover {
@@ -50,5 +53,5 @@ font-family: 'League Spartan', sans-serif;
   font-family: "Jost";
   text-transform: capitalize;
   color: #ffffff;
-  font-size: max(2vmin, 10px);
+  font-size: max(2.2vmin, 10px);
 }

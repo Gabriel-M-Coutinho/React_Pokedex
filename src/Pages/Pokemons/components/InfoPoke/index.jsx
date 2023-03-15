@@ -89,7 +89,7 @@ function InfoPoke({dados,id}) {
       <ul className="d-flex flex-row">
         {abilitys.length > 0 &&
           abilitys.map((m, index) => (
-            <li key={index} className="statslista">
+            <li key={index} className="itenslista">
               {m}
             </li>
           ))}

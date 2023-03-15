@@ -22,8 +22,8 @@ font-family: 'League Spartan', sans-serif;
 
 .pokepagfront {
   height: 40vh;
-  width: 100%;
-  background-size: 150% 110%;
+  width: 100vw;
+  background-size: 180% 110%;
   background-position: -180px;
   background-repeat: no-repeat;
   background-image: url("../../../../Images/wave.png");
@@ -37,7 +37,6 @@ font-family: 'League Spartan', sans-serif;
   min-width: 100px;
   min-width: 100px;
   margin: 80px 0px 2px 0px;
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,7 +47,7 @@ font-family: 'League Spartan', sans-serif;
 }
 
 .pokepagimg {
-  position: absolute;
+  position: static;
   animation: text-shadow-pop-bottom 1.5s 0.5s both;
   width: 40vmin;
   min-width: 170px;
@@ -57,7 +56,7 @@ font-family: 'League Spartan', sans-serif;
 }
 
 .pokepagname {
-  margin: 2vw 0px 2vw 0px;
+  margin: 2vmin 0px 2vmin 0px;
   text-shadow: 0 0.7vmin #3e2272;
   text-transform: capitalize;
   font-size: max(6vmin, 30px);
@@ -66,24 +65,24 @@ font-family: 'League Spartan', sans-serif;
 }
 
 .pokepagtype {
-  margin: 0%;
   text-shadow: 0 0.5vmin #000000;
   font-size: max(1.7vmin, 10px);
   width: 10vmin;
 }
 
 .divbuttonshine {
-  margin-top: -1vw;
+  margin-top: -1vmin;
 }
 
 .shinebotao {
   animation: focusfont 1s 0.2s both;
   font-family: "Jost";
+
   text-transform: uppercase;
   color: #ffffff;
   font-size: max(1.5vmin, 5px);
   font-weight: 500;
-  width: 19vw;
+  width: 19vmin;
   border-radius: 10px;
   background-color: #3e2272;
   border: 0px;

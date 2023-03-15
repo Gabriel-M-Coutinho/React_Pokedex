@@ -34,14 +34,27 @@ function PokeIMG({json}) {
     });
 
     settypes(types);
-    if(sprite === undefined){
+    
+    
+    
+  }, []);
+
+  const setarspriteinicial = useCallback(()=>{
     setsprite(json.sprites.other["official-artwork"].front_default);
-     }
-  }, [sprite,json.sprites.other]);
+  },[json.sprites.other])
+
+
+  useEffect(() => {
+      setarspriteinicial()
+  }, [setarspriteinicial]);
+
+
+
 
   /* --------------------------- render de component -------------------------- */
   useEffect(() => {
     gettypes(json);
+    
   }, [json, gettypes]);
 
   /* ------------------------------ inicio da pag ----------------------------- */
@@ -75,7 +88,6 @@ function PokeIMG({json}) {
             className="justify-content-center shinebotao"
             variant="primary"
             size="sm"
-            style={{ margin: "0px 0px" }}
           >
             Shine View
           </Button>
