@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
 import React, { useCallback, useEffect, useState } from "react";
 
-const PokemonEvolutions = ({ pokename }) => {
+const PokemonEvolutions = ({ pokename , id }) => {
   const [Sprite, SetSprite] = useState("");
 
   const getsprite = useCallback(() => {
@@ -21,13 +21,13 @@ const PokemonEvolutions = ({ pokename }) => {
 
   return (
     <div className="divdata">
-      <div className="card">
         {Sprite ? (
+          <a className="card" href={`/pokemon/${id}`}>
           <img className="sprite" src={Sprite} alt="loading..."></img>
+          </a>
         ) : (
           <></>
-        )}{" "}
-      </div>
+        )}
       <p className="name">{pokename}</p>
     </div>
   );

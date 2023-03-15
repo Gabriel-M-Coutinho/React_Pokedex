@@ -1,27 +1,26 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
-import { useLocation } from "react-router-dom";
 import { useCallback, useEffect, useState } from "react";
 
-function InfoPoke() {
-  const location = useLocation();
+function InfoPoke({dados,id}) {
+  
   const [moves, setmoves] = useState([]);
   const [abilitys, setabilitys] = useState([]);
-  const { state } = location;
+  
 
   const getability = useCallback(() => {
     let arr = [];
-    state.abilities.forEach((element) => {
+    dados.abilities.forEach((element) => {
       arr.push(element.ability.name);
     });
     setabilitys(arr);
-  }, [state.abilities]);
+  }, [dados.abilities]);
 
   const getmoves = useCallback(() => {
     let arr = [];
-    let dados = state.moves;
+    let o = dados.moves;
 
-    dados.forEach((element) => {
+    o.forEach((element) => {
       let obj = {
         name: element.move.name,
         level_learned: element.version_group_details[0].level_learned_at,
@@ -31,7 +30,7 @@ function InfoPoke() {
     });
 
     setmoves(arr);
-  }, [state.moves]);
+  }, [dados.moves]);
 
   useEffect(() => {
     getmoves();
@@ -46,16 +45,16 @@ function InfoPoke() {
       </p>
       <ul className="d-flex flex-row">
         <li className="itenslista">
-          <b>ID:</b> {state.id}
+          <b>ID:</b> {dados.id}
         </li>
         <li className="itenslista">
-          <b>WEIGHT:</b> {state.weight}
+          <b>WEIGHT:</b> {dados.weight}
         </li>
         <li className="itenslista">
-          <b>HEIGHT:</b> {state.height}
+          <b>HEIGHT:</b> {dados.height}
         </li>
         <li className="itenslista">
-          <b>BASE EXP:</b> {state.base_experience}
+          <b>BASE EXP:</b> {dados.base_experience}
         </li>
       </ul>
       {/* --------------------------- estatos de batalha --------------------------- */}
@@ -64,22 +63,22 @@ function InfoPoke() {
       </p>
       <ul className="d-flex flex-row">
         <li className="statslista">
-          <b>HP:</b> {state.stats[0].base_stat}
+          <b>HP:</b> {dados.stats[0].base_stat}
         </li>
         <li className="statslista">
-          <b>ATK:</b> {state.stats[1].base_stat}
+          <b>ATK:</b> {dados.stats[1].base_stat}
         </li>
         <li className="statslista">
-          <b>DEF:</b> {state.stats[2].base_stat}
+          <b>DEF:</b> {dados.stats[2].base_stat}
         </li>
         <li className="statslista">
-          <b>SP ATK:</b> {state.stats[3].base_stat}
+          <b>SP ATK:</b> {dados.stats[3].base_stat}
         </li>
         <li className="statslista">
-          <b>SP DEF:</b> {state.stats[4].base_stat}
+          <b>SP DEF:</b> {dados.stats[4].base_stat}
         </li>
         <li className="statslista">
-          <b>SPEED:</b> {state.stats[5].base_stat}
+          <b>SPEED:</b> {dados.stats[5].base_stat}
         </li>
       </ul>
       {/* ---------------------------- Movesets e level ---------------------------- */}

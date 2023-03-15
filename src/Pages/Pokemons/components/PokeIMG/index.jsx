@@ -1,12 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
 import "./style.css";
-import { useLocation } from "react-router-dom";
 import { useCallback, useEffect, useState } from "react";
 
-function PokeIMG() {
-  const location = useLocation();
-  const { state } = location;
+function PokeIMG({json}) {
+  
   const [sprite, setsprite] = useState();
   const [isShine, setisShine] = useState(false);
   const [types, settypes] = useState([]);
@@ -15,12 +13,14 @@ function PokeIMG() {
 
   const changesprite = () => {
     if (isShine === true) {
+      setsprite(json.sprites.other["official-artwork"].front_default);
       setisShine(false);
-      setsprite(state.sprites.other["official-artwork"].front_default);
+      
     }
     if (isShine === false) {
+      setsprite(json.sprites.other["official-artwork"].front_shiny);
       setisShine(true);
-      setsprite(state.sprites.other["official-artwork"].front_shiny);
+      
     }
   };
 
@@ -34,13 +34,15 @@ function PokeIMG() {
     });
 
     settypes(types);
-    setsprite(state.sprites.other["official-artwork"].front_default);
-  }, []);
+    if(sprite === undefined){
+    setsprite(json.sprites.other["official-artwork"].front_default);
+     }
+  }, [sprite,json.sprites.other]);
 
   /* --------------------------- render de component -------------------------- */
   useEffect(() => {
-    gettypes(state);
-  }, [state, gettypes]);
+    gettypes(json);
+  }, [json, gettypes]);
 
   /* ------------------------------ inicio da pag ----------------------------- */
   return (
@@ -51,11 +53,11 @@ function PokeIMG() {
             align="center"
             className="pokepagimg"
             src={sprite}
-            alt={state.species.name}
+            alt={json.species.name}
           />
         </div>
         <h1 className="pokepagname">
-          {state.species.name}
+          {json.species.name}
           <br></br>
           <div className="d-flex justify-content-center">
             {types.map((t, index) => (
