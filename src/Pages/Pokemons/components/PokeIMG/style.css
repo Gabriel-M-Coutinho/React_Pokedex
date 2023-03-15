@@ -27,7 +27,6 @@ font-family: 'League Spartan', sans-serif;
   background-position: -180px;
   background-repeat: no-repeat;
   background-image: url("../../../../Images/wave.png");
-  z-index: 1;
 }
 
 .pokepagcircle {
@@ -44,7 +43,6 @@ font-family: 'League Spartan', sans-serif;
   align-items: center;
   background-color: #ffffffbb;
   border-radius: 50%;
-  z-index: 6;
 }
 
 .pokepagimg {
@@ -65,10 +63,39 @@ font-family: 'League Spartan', sans-serif;
   animation: focusfont 1s 0.2s both;
 }
 
-p.pokepagname {
-  margin: 0% 0px 0px 0px;
+.pokepagtype {
+  margin: 0%;
+  padding: 0.3vw 0.5vw;
   text-shadow: 0 3px #3e2272;
-  font-size: max(2vmin, 20px);
+  font-size: max(1vmin, 15px);
+  width: 10vw;
+  min-width: 50px;
+  max-width: 100px;
+}
+
+.divbuttonshine {
+  margin-top: -1vw;
+}
+
+.shinebotao {
+  animation: focusfont 1s 0.2s both;
+  font-family: "Jost";
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: max(1.7vmin, 10px);
+  font-weight: 500;
+  width: 19vw;
+  min-width: 90px;
+  max-width: 190px;
+  background-color: #3e2272;
+  border: 0px;
+}
+
+.shinebotao:hover {
+  font-size: 1.75vmin;
+  font-family: "Jost";
+  background-color: #633ab1;
+  border: 0px;
 }
 
 /* ----------------------------- types gradient ----------------------------- */

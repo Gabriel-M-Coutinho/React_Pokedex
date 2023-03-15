@@ -7,10 +7,50 @@ font-family: 'League Spartan', sans-serif;
 */
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-.datapag {
-  width: 100%;
-  color: white;
-  margin: 0%;
-  padding: 0%;
-  font-family: "League Spartan";
+.divdata {
+  animation: focusfont 1s 0.2s both;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -13vw;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff8c;
+  border-radius: 100%;
+  margin: 0 2vw 2vw 2vw;
+  min-width: 120px;
+  min-height: 120px;
+  width: 15vw;
+  height: 15vw;
+}
+
+.card:hover {
+  transition: all 0.2s;
+  background-color: #ffffff;
+}
+
+.sprite {
+  transition: all 0.2s;
+  position: absolute;
+  width: 130%;
+}
+
+.sprite:hover {
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+
+.name {
+  animation: focusfont 1s 0.2s both;
+  font-family: "Jost";
+  text-transform: capitalize;
+  color: #ffffff;
+  font-size: max(2vmin, 12px);
 }

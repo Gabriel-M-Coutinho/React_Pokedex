@@ -9,7 +9,7 @@ function Busca({ onChange, value }) {
       <input
         type="search"
         className="BuscaNavbar form-control rounded-pill"
-        placeholder="Nome ou ID"
+        placeholder="Nome"
         onChange={onChange}
         value={value}
       ></input>

@@ -1,33 +1,34 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
-
-import React, {  useCallback, useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 
 const PokemonEvolutions = ({ pokename }) => {
-  const [Sprite,SetSprite] = useState('')
- 
+  const [Sprite, SetSprite] = useState("");
 
-  const getsprite = useCallback(()=>{
-    
+  const getsprite = useCallback(() => {
     fetch(`https://pokeapi.co/api/v2/pokemon/${pokename}`)
-      .then((result)=>{
-        return result.json()
-      
-      }).then((result)=>{
-        SetSprite(result.sprites.other["official-artwork"].front_default)
+      .then((result) => {
+        return result.json();
       })
-  },[pokename])
-
-  
+      .then((result) => {
+        SetSprite(result.sprites.other["official-artwork"].front_default);
+      });
+  }, [pokename]);
 
   useEffect(() => {
-    getsprite()
+    getsprite();
   }, [getsprite]);
 
   return (
-    <div className="datapag">
-      <p>{pokename}</p>
-     {Sprite? <img src={Sprite} alt='loading...' ></img> : <></>} 
+    <div className="divdata">
+      <div className="card">
+        {Sprite ? (
+          <img className="sprite" src={Sprite} alt="loading..."></img>
+        ) : (
+          <></>
+        )}{" "}
+      </div>
+      <p className="name">{pokename}</p>
     </div>
   );
 };
