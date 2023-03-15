@@ -7,7 +7,7 @@ import PokeData from "../Pokemons/components/PokeData/index";
 import { useParams} from "react-router-dom";
 import InfoPoke from "./components/InfoPoke";
 
-function Poke() {
+function Poke({Sprite}) {
   const params = useParams();
   const {id} =  params
   const [evolutionChain, setEvolutionChain] = useState(null);

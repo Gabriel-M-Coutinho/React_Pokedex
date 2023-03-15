@@ -6,14 +6,14 @@ const PokemonEvolutions = ({ pokename , id }) => {
   const [Sprite, SetSprite] = useState("");
 
   const getsprite = useCallback(() => {
-    fetch(`https://pokeapi.co/api/v2/pokemon/${pokename}`)
+    fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
       .then((result) => {
         return result.json();
       })
       .then((result) => {
         SetSprite(result.sprites.other["official-artwork"].front_default);
       });
-  }, [pokename]);
+  }, [id]);
 
   useEffect(() => {
     getsprite();
@@ -22,7 +22,7 @@ const PokemonEvolutions = ({ pokename , id }) => {
   return (
     <div className="divdata">
         {Sprite ? (
-          <a className="card" href={`/pokemon/${id}`}>
+          <a className="card" href={`https://localhost:3000/pokemon/${id}`} foto={Sprite}>
           <img className="sprite" src={Sprite} alt="loading..."></img>
           </a>
         ) : (
