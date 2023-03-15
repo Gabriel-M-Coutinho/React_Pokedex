@@ -22,7 +22,7 @@ font-family: 'League Spartan', sans-serif;
   font-family: "League Spartan";
   width: 100%;
   height: 60vmin;
-  min-height: 200px;
+  min-height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,13 +48,13 @@ font-family: 'League Spartan', sans-serif;
   margin: 10% 0% 0% 0%;
   font-size: max(7vmin, 10px);
   color: white;
-  text-shadow: 0 5px #0c041b;
+  text-shadow: 0 1vw #0c041b;
   animation: focusfont 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .h2cab {
   margin-bottom: 30px;
-  font-size: max(12.2vmin, 20px);
+  font-size: max(12.2vmin, 18px);
   text-transform: uppercase;
   color: white;
   animation: text-shadow-pop-bottom 1s 0.5s both;
@@ -62,7 +62,6 @@ font-family: 'League Spartan', sans-serif;
 
 .pesquisaCab {
   margin-top: -120px;
-  width: 56vmin;
 }
 
 /**

@@ -29,7 +29,7 @@ function Poke() {
   return (
     <div className="d-flex flex-wrap estilobox">
       <PokeIMG />
-      <p className="subtitulo linha" style={{ marginTop: "14vw" }}>
+      <p className="subtitulo linha" style={{ margin: "14vw 0vw 5vw 0vw" }}>
         <span>Evolutions</span>
       </p>
       <div className="centralizartudo">

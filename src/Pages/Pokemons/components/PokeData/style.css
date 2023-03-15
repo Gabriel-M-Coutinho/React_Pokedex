@@ -25,8 +25,6 @@ font-family: 'League Spartan', sans-serif;
   background-color: #ffffff8c;
   border-radius: 100%;
   margin: 0 2vw 2vw 2vw;
-  min-width: 120px;
-  min-height: 120px;
   width: 15vw;
   height: 15vw;
 }
@@ -52,5 +50,5 @@ font-family: 'League Spartan', sans-serif;
   font-family: "Jost";
   text-transform: capitalize;
   color: #ffffff;
-  font-size: max(2vmin, 12px);
+  font-size: max(2vmin, 10px);
 }

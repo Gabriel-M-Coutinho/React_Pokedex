@@ -84,8 +84,9 @@ function Home() {
       <Navbar onChange={handleChange} value={searchvalue} />
 
       {/* ----------------------------- Cabecalho ----------------------------- */}
-      <Cabecalho onChange={handleChange} value={searchvalue} />
-
+      <div style={{ margin: "0% 0% 10% 0%" }}>
+        <Cabecalho onChange={handleChange} value={searchvalue} />
+      </div>
       {/* ----------------------------- Abas de filtro ----------------------------- */}
 
       {/* ----------------------------- For in Poke Cards ----------------------------- */}

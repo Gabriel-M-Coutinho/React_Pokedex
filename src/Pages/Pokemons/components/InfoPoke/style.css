@@ -19,7 +19,7 @@ ul {
   justify-content: center;
   align-items: center;
   margin-top: 8vw;
-  margin-right: 30px;
+  margin-left: -17px;
 }
 
 .itenslista {
@@ -31,7 +31,7 @@ ul {
   font-family: "Jost";
   text-transform: capitalize;
   color: #ffffff;
-  font-size: max(1.5vmin, 12px);
+  font-size: max(1.5vmin, 10px);
 }
 
 .statslista {
@@ -43,7 +43,7 @@ ul {
   font-family: "Jost";
   text-transform: capitalize;
   color: #ffffff;
-  font-size: max(1.5vmin, 12px);
+  font-size: max(1.5vmin, 8px);
 }
 
 .tablestyle {
@@ -59,7 +59,7 @@ ul {
   font-family: "Jost";
   text-transform: capitalize;
   color: #ffffff;
-  font-size: max(1.5vmin, 12px);
+  font-size: max(1.5vmin, 10px);
 }
 
 .Htablestyle {
@@ -72,7 +72,7 @@ ul {
   font-family: "Jost";
   text-transform: capitalize;
   color: #ffffff;
-  font-size: max(1.5vmin, 12px);
+  font-size: max(1.5vmin, 10px);
 }
 
 p.subtitulo {
@@ -80,13 +80,13 @@ p.subtitulo {
   font-family: "Jost";
   text-transform: uppercase;
   color: #ffffff;
-  font-size: max(3vmin, 15px);
+  font-size: max(3vmin, 13px);
   font-weight: 500;
-  margin-right: -28px;
+  margin-right: -24px;
 }
 
 .linha {
-  width: 100%;
+  width: 100vw;
   text-align: center;
   border-bottom: 1px dashed #ffffff2c;
   line-height: 0.1em;

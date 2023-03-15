@@ -7,26 +7,22 @@ import { useCallback, useEffect, useState } from "react";
 function PokeIMG() {
   const location = useLocation();
   const { state } = location;
-  const [sprite,setsprite] = useState()
-  const [isShine,setisShine] = useState(false)
+  const [sprite, setsprite] = useState();
+  const [isShine, setisShine] = useState(false);
   const [types, settypes] = useState([]);
-
-
 
   /* ---------------------------- trocando sprite ---------------------------- */
 
   const changesprite = () => {
-    
-    if (isShine === true){
+    if (isShine === true) {
       setisShine(false);
-      setsprite(state.sprites.other["official-artwork"].front_default)
+      setsprite(state.sprites.other["official-artwork"].front_default);
     }
-    if (isShine === false){
-      setisShine(true);  
-      setsprite(state.sprites.other["official-artwork"].front_shiny)
+    if (isShine === false) {
+      setisShine(true);
+      setsprite(state.sprites.other["official-artwork"].front_shiny);
     }
-    
-  }
+  };
 
   /* ---------------------------- pegando os tipos ---------------------------- */
   const gettypes = useCallback((state) => {
@@ -38,16 +34,13 @@ function PokeIMG() {
     });
 
     settypes(types);
-    setsprite(state.sprites.other["official-artwork"].front_default)
-  },[]) 
+    setsprite(state.sprites.other["official-artwork"].front_default);
+  }, []);
 
   /* --------------------------- render de component -------------------------- */
   useEffect(() => {
     gettypes(state);
-    
-  }, [state,gettypes]);
-
-
+  }, [state, gettypes]);
 
   /* ------------------------------ inicio da pag ----------------------------- */
   return (
