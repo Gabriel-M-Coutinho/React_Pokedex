@@ -35,26 +35,13 @@ function PokeIMG({json}) {
 
     settypes(types);
     
-    
-    
-  }, []);
-
-  const setarspriteinicial = useCallback(()=>{
     setsprite(json.sprites.other["official-artwork"].front_default);
-  },[json.sprites.other])
-
-
-  useEffect(() => {
-      setarspriteinicial()
-  }, [setarspriteinicial]);
-
-
-
+    
+  }, [json.sprites.other]);
 
   /* --------------------------- render de component -------------------------- */
   useEffect(() => {
     gettypes(json);
-    
   }, [json, gettypes]);
 
   /* ------------------------------ inicio da pag ----------------------------- */
