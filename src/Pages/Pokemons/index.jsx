@@ -4,85 +4,57 @@ import "./style.css";
 import { useEffect, useState, useCallback } from "react";
 import PokeIMG from "../Pokemons/components/PokeIMG/index";
 import PokeData from "../Pokemons/components/PokeData/index";
-import { useParams} from "react-router-dom";
+import { useParams } from "react-router-dom";
 import InfoPoke from "./components/InfoPoke";
+import PokeShine from "./components/PokeShine";
 
-function Poke({Sprite}) {
+function Poke({ Sprite }) {
   const params = useParams();
-  const {id} =  params
+  const { id } = params;
   const [evolutionChain, setEvolutionChain] = useState(null);
-  const [result, setresult] = useState()
-
-
-
-
-
+  const [result, setresult] = useState();
 
   document.body.style.backgroundColor = "#0c041b";
-  
 
-
-   const  RequestPoke = useCallback(  () => {
-    
+  const RequestPoke = useCallback(() => {
     fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
-      .then((result)=>{
-        
+      .then((result) => {
         return result.json();
-        
       })
       .then((poke) => {
-          const data = poke
-          setresult(data)
-          
-      })
-      
-    
-    
-   
-  },[id])
+        const data = poke;
+        setresult(data);
+      });
+  }, [id]);
 
   const getPokemonEvolutions = useCallback((data) => {
-      if(data !== undefined ){
+    if (data !== undefined) {
       const arr = dadosJSON.find((poke) => poke.name === data.name);
       const evolution = arr.evo;
       setEvolutionChain(evolution);
     }
-    
-   
-    
-  },[])
-      
-  
+  }, []);
 
-  
-
-
-  useEffect( () => {
-    
-      RequestPoke()
-      getPokemonEvolutions(result);
-      
-     
-     
-     
-
-  }, [getPokemonEvolutions, RequestPoke,result]);
-
+  useEffect(() => {
+    RequestPoke();
+    getPokemonEvolutions(result);
+  }, [getPokemonEvolutions, RequestPoke, result]);
 
   return (
     <div autoFocus>
-      {result &&
-      <PokeIMG json={result}/>
-    } 
-      <p className="subtitulo linha" style={{ margin: "22vmin 0vw 5vw 0vw" }}>
-        <span>Evolutions</span>
-      </p>
+      <div>{result && <PokeIMG json={result} />}</div>
       <div className="centralizartudo">
-        <div className="d-flex flex-wrap justify-content-center">
+        <div style={{ margin: "0px 0px 150px 0px" }}>
+          {result && <PokeShine json={result} />}
+        </div>
+        <div
+          className="d-flex flex-wrap justify-content-center"
+          style={{ margin: "-100px 0px -50px" }}
+        >
           {evolutionChain
             ? evolutionChain.map((evo) => {
                 return (
-                  <PokeData   
+                  <PokeData
                     pokename={evo.name.toLowerCase()}
                     key={evo.name}
                     id={evo.id}
@@ -91,11 +63,7 @@ function Poke({Sprite}) {
               })
             : "loanding.."}
         </div>
-        <div>
-        {result && 
-          <InfoPoke id={id} dados={result}/>
-        }
-        </div>
+        <div>{result && <InfoPoke id={id} dados={result} />}</div>
       </div>
     </div>
   );

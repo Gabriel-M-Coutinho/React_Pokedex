@@ -13,7 +13,6 @@ font-family: 'League Spartan', sans-serif;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: -13vw;
 }
 
 .card {
@@ -29,7 +28,6 @@ font-family: 'League Spartan', sans-serif;
   height: 15vw;
   max-width: 150px;
   max-height: 150px;
-
 }
 
 .card:hover {

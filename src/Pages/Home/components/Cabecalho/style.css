@@ -48,7 +48,7 @@ font-family: 'League Spartan', sans-serif;
   margin: 10% 0% 0% 0%;
   font-size: max(7vmin, 10px);
   color: white;
-  text-shadow: 0 1vw #0c041b;
+  text-shadow: 0 0.4vw #0c041b;
   animation: focusfont 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 

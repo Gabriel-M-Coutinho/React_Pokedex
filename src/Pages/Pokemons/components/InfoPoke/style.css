@@ -89,8 +89,8 @@ p.subtitulo {
   width: 100vw;
   text-align: center;
   border-bottom: 1px dashed #ffffff2c;
-  line-height: 0.1em;
-  margin: 10vw 0 5vw;
+  line-height: 1px;
+  margin: 80px 0px 80px 0px;
 }
 
 .linha span {

@@ -1,43 +1,29 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Button from "react-bootstrap/Button";
 import "./style.css";
 import { useCallback, useEffect, useState } from "react";
 
-function PokeIMG({json}) {
-  
+function PokeIMG({ json }) {
   const [sprite, setsprite] = useState();
-  const [isShine, setisShine] = useState(false);
   const [types, settypes] = useState([]);
 
   /* ---------------------------- trocando sprite ---------------------------- */
 
-  const changesprite = () => {
-    if (isShine === true) {
-      setsprite(json.sprites.other["official-artwork"].front_default);
-      setisShine(false);
-      
-    }
-    if (isShine === false) {
-      setsprite(json.sprites.other["official-artwork"].front_shiny);
-      setisShine(true);
-      
-    }
-  };
-
   /* ---------------------------- pegando os tipos ---------------------------- */
-  const gettypes = useCallback((state) => {
-    let types = [];
-    let arr = state.types;
+  const gettypes = useCallback(
+    (state) => {
+      let types = [];
+      let arr = state.types;
 
-    arr.forEach((e) => {
-      types.push(e.type.name);
-    });
+      arr.forEach((e) => {
+        types.push(e.type.name);
+      });
 
-    settypes(types);
-    
-    setsprite(json.sprites.other["official-artwork"].front_default);
-    
-  }, [json.sprites.other]);
+      settypes(types);
+
+      setsprite(json.sprites.other["official-artwork"].front_default);
+    },
+    [json.sprites.other]
+  );
 
   /* --------------------------- render de component -------------------------- */
   useEffect(() => {
@@ -69,16 +55,6 @@ function PokeIMG({json}) {
             ))}
           </div>
         </h1>
-        <div className="divbuttonshine">
-          <Button
-            onClick={changesprite}
-            className="justify-content-center shinebotao"
-            variant="primary"
-            size="sm"
-          >
-            Shine View
-          </Button>
-        </div>
       </div>
     </div>
   );
