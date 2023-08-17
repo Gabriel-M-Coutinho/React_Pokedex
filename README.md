@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Documentação da Pokedex usando a PokeAPI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introdução
 
-## Available Scripts
+Este é um projeto de Pokedex desenvolvido em React, utilizando a PokeAPI como fonte de dados. A Pokedex é uma aplicação web que permite aos usuários explorar informações sobre os diferentes pokémons, incluindo detalhes como nome, tipo, habilidades e imagens.
 
-In the project directory, you can run:
+## Estrutura do Projeto
 
-### `npm start`
+    public/
+    ├── favicon.ico
+    ├── index.html
+    ├── logo192.png
+    ├── logo512.png
+    └── manifest.json
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    src/
+    ├── Images/
+    │ ├── logonav.png
+    │ └── wave.png
+    ├── Pages/
+    │ ├── Home/
+    │ │ ├── components/
+    │ │ │ ├── index.jsx
+    │ │ │ └── style.css
+    │ │ └── style.css
+    │ ├── Pokemons/
+    │ │ ├── components/
+    │ │ │ ├── dados.json
+    │ │ │ ├── index.jsx
+    │ │ │ └── style.css
+    │ ├── index.css
+    │ ├── index.js
+    │ ├── logo.svg
+    │ └── reportWebVitals.js
+    ├── setupTests.js
+    ├── .gitignore
+    ├── README.md
+    ├── package-lock.json
+    └── package.json
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+markdown
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Páginas Principais
 
-### `npm run build`
+### Home
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A página inicial da Pokedex. Ela contém componentes para exibir informações e links para diferentes seções do aplicativo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **components/index.jsx**: Componente principal da página inicial.
+- **components/style.css**: Estilos CSS específicos para a página inicial.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Pokemons
 
-### `npm run eject`
+A página de detalhes dos pokémons. Ela exibe informações detalhadas sobre um pokémon específico, usando dados da PokeAPI.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **components/dados.json**: Exemplo de arquivo com dados de pokémons. (Nota: você pode utilizar a PokeAPI para obter esses dados dinamicamente.)
+- **components/index.jsx**: Componente principal da página de detalhes dos pokémons.
+- **components/style.css**: Estilos CSS específicos para a página de detalhes dos pokémons.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Configuração e Execução
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **src/index.js**: Ponto de entrada da aplicação React.
+- **src/index.css**: Arquivo de estilos globais.
+- **src/setupTests.js**: Configuração de testes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Recursos Adicionais
 
-## Learn More
+- **public/**: Diretório contendo arquivos estáticos que são servidos publicamente.
+- **src/Images/**: Diretório para imagens utilizadas na aplicação.
+- **src/Pages/**: Diretório contendo as páginas principais da aplicação.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Uso da PokeAPI
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Este projeto utiliza a PokeAPI para obter informações sobre os pokémons. Acesse [PokeAPI](https://pokeapi.co/) para obter mais informações sobre como fazer requisições e utilizar os endpoints disponíveis.
 
-### Code Splitting
+## Contribuição
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Se você deseja contribuir com o projeto, sinta-se à vontade para fazer um fork do repositório e criar um pull request com as suas modificações.
 
-### Analyzing the Bundle Size
+## Como Executar o Projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Certifique-se de ter o Node.js e o npm instalados em sua máquina.
+2. Clone o repositório para o seu computador.
+3. Navegue até a pasta raiz do projeto e execute o comando `npm install` para instalar as dependências.
+4. Execute o comando `npm start` para iniciar o servidor de desenvolvimento e abrir a aplicação no navegador.
 
-### Making a Progressive Web App
+## Considerações Finais
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Esta documentação fornece uma visão geral da estrutura e organização do projeto da Pokedex usando a PokeAPI. Sinta-se à vontade para expandir e aprimorar o projeto de acordo com suas necessidades.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Lembre-se de manter a documentação atualizada à medida que o projeto evolui. Isso ajudará você e outros desenvolvedores a entenderem e contribuírem com o projeto de forma mais eficaz.
