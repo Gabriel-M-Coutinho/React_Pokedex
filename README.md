@@ -1,5 +1,7 @@
 # Documentação da Pokedex usando a PokeAPI
 
+![React Pokedex](https://github.com/BulboGC/React_Pokedex/raw/main/image.png)
+
 ## Introdução
 
 Este é um projeto de Pokedex desenvolvido em React, utilizando a PokeAPI como fonte de dados. A Pokedex é uma aplicação web que permite aos usuários explorar informações sobre os diferentes pokémons, incluindo detalhes como nome, tipo, habilidades e imagens.
