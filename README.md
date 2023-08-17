@@ -1,4 +1,7 @@
 # Documentação da Pokedex usando a PokeAPI
+<h6 align="center">LINK DO PROJETO:
+    
+[Pokebox - A pokedex from PokeAPI](https://steady-pony-156e40.netlify.app/ "Pokebox - A pokedex from PokeAPI")</h6>
 
 ![React Pokedex](https://github.com/BulboGC/React_Pokedex/raw/main/image.png)
 
